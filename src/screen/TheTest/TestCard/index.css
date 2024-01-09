@@ -1,0 +1,227 @@
+.test-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 108px; */
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.test-card-container:hover {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 108px; */
+    background: #FFFFFF;
+    border: 1px solid #00C49A;
+    border-radius: 2px;
+}
+
+.test-card-container:hover .bottom-container .bottom-container-right {
+    visibility: visible;
+}
+
+.test-card-container .top-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 21px;
+    padding-left: 15px;
+    
+}
+
+.test-card-container .top-container .top-container-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+}
+
+.test-card-container .top-container .top-container-left span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+    word-break: break-all;
+}
+
+.test-card-container .sep-line {
+    height: 0.5px;
+    width: 100%;
+    background-color: #F1F5F7;
+    margin-top: 17px;
+}
+
+.test-card-container .bottom-container {
+    display: flex;
+    margin-top: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 93.5%;
+    margin-left: 10px;
+    
+}
+
+.test-card-container .bottom-container .bottom-container-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+.test-card-container .bottom-container .bottom-container-left .status-button {
+
+    height: 25px;
+    background: #D6FFF6;
+    border-radius: 500px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10px;
+    gap: 4px;
+}
+
+.test-card-container .bottom-container .bottom-container-left .status-button .circle {
+    width: 25px;
+    height: 25px;
+    background: #00C49A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-card-container .bottom-container .bottom-container-left .status-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #2D2B2B;
+    text-transform: capitalize;
+}
+.test-card-container .bottom-container .bottom-container-left .statemanagement {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #313131;
+}
+
+.test-card-container .bottom-container .bottom-container-left .health {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.test-card-container .bottom-container .bottom-container-left .health span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #F23E3E;
+}
+
+.test-card-container .bottom-container .bottom-container-left .score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.test-card-container .bottom-container .bottom-container-left .score span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.test-card-container .bottom-container .bottom-container-left .tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.test-card-container .bottom-container .bottom-container-left .tags span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.test-card-container .bottom-container .bottom-container-right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    visibility: hidden;
+}
+
+.test-card-container .bottom-container .bottom-container-right .try-question {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+}
+
+.test-card-container .bottom-container .bottom-container-right .try-question span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.test-card-container .bottom-container .bottom-container-right .remove-question {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+}
+
+.test-card-container .bottom-container .bottom-container-right .remove-question span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+
+}

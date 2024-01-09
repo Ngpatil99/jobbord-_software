@@ -1,0 +1,56 @@
+.update-cut-off-score-container {
+    display: flex;
+    padding: 9px 7.5px 8px 7.5px;
+    flex-direction: column;
+    border-radius: 2px;
+    background: #FFF;
+    box-shadow: 5px 5px 10px 0px rgba(100, 96, 96, 0.10);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    z-index: 10;
+    position: absolute;
+    top:3em;
+    right: 0em;
+}
+
+.update-cut-off-score-container input {
+    width: 155px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    padding: 15px 10px
+}
+
+.update-cut-off-score-container p{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;    
+}
+
+.update-cut-off-score-container button {
+    display: flex;
+    gap: 12px;
+    width: 155px;
+    padding: 12px 15px;
+    border-radius: 2px;
+    background: #384455;
+    width: 155px;
+    border:none;
+}
+
+.update-cut-off-score-container button span {
+color: #FFF;
+font-family: 'Roboto';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: left;
+}

@@ -1,0 +1,36 @@
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F5F7;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+}
+
+.notification-container .notif-top {
+    width: 50vw;
+}
+
+.notification-container .notif-top .notification-heading {
+    position: relative;
+    margin-top: 87px;
+}
+
+.notification-container .notif-top .notification-heading span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.notification-container .all-cards {
+    overflow: auto;
+    margin-bottom: 0px;
+}
+
+.notification-container .notif-card {
+    margin-top: 30px;
+}

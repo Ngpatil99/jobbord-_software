@@ -1,0 +1,128 @@
+.sidebar {
+    background-color: #384455;
+    width: 20vw;
+    height: calc(100vh - 70px);
+    box-sizing: border-box;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+.sidebar .header {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.sidebar .header span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+}
+
+.sidebar .header .bottom-line {
+    background-color: #DDDDDD;
+    width: 100%;
+    height: 0.5px;
+}
+
+.sidebar .menu-list {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.sidebar .menu-list .item {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: flex-start;
+    gap: 13px;
+    align-items: center;
+    margin-top: 12px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.sidebar .menu-list .item svg {
+    margin-left: 14px;
+}
+
+.sidebar .menu-list .item span {
+
+    font-family: 'Nunito';
+    font-style: normal;
+    /* font-weight: 300; */
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+
+}
+
+.sidebar .support-box {
+    width: 100%;
+    /* height: 20vh; */
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 26px;
+    margin-top: 37px;
+    justify-content: flex-start;
+}
+
+.sidebar .support-box span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.sidebar .support-box p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 15px;
+    color: #827E7B;
+    margin-top: 0px;
+}
+
+.sidebar .support-box .button {
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    background: #FF6812;
+    border-radius: 2px;
+    align-items: center;
+    gap: 6px;
+    height: 37px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.sidebar .support-box .button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+
+}

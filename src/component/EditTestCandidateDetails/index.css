@@ -1,0 +1,239 @@
+.edit-candidate-details-modal-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    z-index: 10;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    border-radius: 2px;
+    background: #FFF;
+    box-shadow: 10px 10px 50px 0px rgba(100, 96, 96, 0.08);
+    width: 30vw;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .heading-of-edit-test-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .heading-of-edit-test-details span {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .border-of-edit-test-details {
+    height: 1px;
+    background: #DDDDDD;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #384455;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .select-box-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .select-box-container button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 15px;
+    background: #384455;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .select-box-container button svg {
+    margin-right: 12px;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .select-box-container .select-box {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .select-box-container .select-box select {
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .select-box-container .select-box .vector-svg {
+    position: absolute;
+    top: 21px;
+    right: 17px;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .bottom-save-cancel-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .bottom-save-cancel-container .save-cancel-container {
+    display: flex;
+    gap: 15px;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .bottom-save-cancel-container .save-cancel-container button:nth-child(1) {
+    display: flex;
+    gap: 10px;
+    border-radius: 2px;
+    background: #827C7C;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    padding: 8px 20px;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .bottom-save-cancel-container .save-cancel-container button:nth-child(1) span {
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .bottom-save-cancel-container .save-cancel-container button:nth-child(2) {
+    display: flex;
+    height: 35px;
+    padding: 8px 20px;
+    gap: 10px;
+    border-radius: 2px;
+    background: #00C49A;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .bottom-save-cancel-container .save-cancel-container button:nth-child(2) span {
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .candidate-list-item-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 2px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .candidate-list-item-container button {
+    background: #F8F8F8;
+    border: 1px solid #00C49A;
+    border-radius: 24px;
+    padding: 7px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .candidate-list-item-container button span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* Black */
+
+    color: #00C49A;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .candidate-list-item-container button:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .candidate-list-item-container button:hover span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: red;
+
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .candidate-list-item-container button:hover svg circle {
+    fill: red;
+}
+
+.edit-candidate-details-modal-container .edit-candidate-details-modal .custom-input-box .candidate-list-item-container button:hover svg path {
+    stroke: white;
+}

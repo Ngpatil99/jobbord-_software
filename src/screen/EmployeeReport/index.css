@@ -1,0 +1,114 @@
+.employee-report {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.employee-report .employee-report-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.employee-report .employee-report-container .employee-left {
+    display: flex;
+    width: 20vw;
+    /* border: 1px solid black; */
+}
+
+.employee-report .employee-report-container .employee-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 75px 40px;
+    overflow: auto;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    background: #FFFFFF;
+    padding: 30px;
+    gap: 30px;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content .employee-report-header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #FEE9E1;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content .employee-report-header .employee-report-header-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content .employee-report-header .employee-report-header-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+
+    color: #333333;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content .employee-report-header .employee-report-header-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content .employee-report-btn {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+
+    width: 182.84px;
+    height: 44px;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content .employee-report-btn:focus-within {
+    border: 1px solid black;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content .employee-report-btn select {
+    height: 42px;
+    width: 90%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content .employee-report-body {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content .employee-report-body .employee-report-body-left {
+   border: 1px solid #DDDDDD;
+   width: 100%;
+   height: 500px;
+}
+
+.employee-report .employee-report-container .employee-right .employee-report-content .employee-report-body .employee-report-body-right {
+   border: 1px solid #DDDDDD;
+   width: 100%;
+   height: 500px;
+}

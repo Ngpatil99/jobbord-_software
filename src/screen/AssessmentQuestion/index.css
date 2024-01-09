@@ -1,0 +1,646 @@
+.assessment-question {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.assessment-question .assessment-question-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-left {
+    display: flex;
+    width: 20vw;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 75px 20px;
+    overflow: auto;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    background: #FFFFFF;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* ************************************header styling********************* */
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 30px;
+    border-bottom: 1px solid #FEE9E1;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-header .header-left {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-header .header-left .title {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    text-align: left;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-header .header-left .title .skeleton {
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-header .header-left .title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+
+    color: #333333;
+    text-transform: capitalize;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-header .header-left .title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-header .header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-header .header-right .preview-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 44px;
+    justify-content: center;
+    padding: 12px 18px 12px 18px;
+    background: #00C49A;
+    border-radius: 2px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-header .header-right .preview-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+/* ******************************table styling*********************** */
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table {
+    width: 100%;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin {
+    width: 100%;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin th {
+    background: #F1F5F7;
+    border-radius: 2px 2px 0px 0px;
+    height: 49px;
+    text-align: left;
+    padding-left: 36px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    border: 1px solid #DDDDDD;
+
+    color: #333333;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin th:nth-child(1) {
+    border-right: none;
+    width: 25%;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin th:nth-child(2) {
+    border-left: none;
+    border-right: none;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin th:nth-child(3) {
+    width: 15%;
+    border-left: none;
+    border-right: none;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin th:nth-child(4) {
+    width: 15%;
+    padding-right: 25px;
+    border-left: none;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin td {
+    border-bottom: 1px solid #DDDDDD;
+    height: 50px;
+
+    padding-left: 36px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin .skeleton {
+    width: 100px;
+    height: 20px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin td:nth-child(1) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #333333;
+    border-left: 1px solid #DDDDDD;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin td:nth-child(2) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #696974;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin td:nth-child(3) {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-left: 25px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #696974;
+
+
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .assessment-admin .admin-table .admin td:nth-child(4) {
+    width: 10%;
+    padding-right: 50px;
+    padding-left: 49px;
+    text-align: center;
+    border-right: 1px solid #DDDDDD;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #696974;
+}
+
+
+/* *****************************************card styling**************************** */
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .question-card-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .question-card-title button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background: #FF6812;
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 13vw;
+    height: 35px;
+    gap: 5px;
+    cursor: pointer;
+    border:none
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .question-card-title button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .question-card-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+    display: flex;
+    gap:3px
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .question-card-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+
+
+/* ****************************card styling***************** */
+
+
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-cards .row1 {
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    border-radius: 2px;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 15px 18px 15px 40px;
+    box-sizing: border-box;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1:hover {
+    border: 1px solid #00C49A;
+    border-radius: 2px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1:hover .head svg {
+    visibility: visible;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1:hover .bottom .selected {
+    visibility: visible;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .description span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #384455;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .head .check-box {
+    position: absolute;
+    left: -29px;
+    visibility: hidden;
+    top: 5px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .head .selected-check-box {
+    position: absolute;
+    left: -29px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .head .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70vw;
+    gap: 20px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .head .left span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #313131;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .head .left .difficulty {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* width: 70vw; */
+    background-color: #D6FFF6;
+    border-radius: 500px;
+    gap: 7px;
+    height: 32px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .head .left .difficulty span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #2D2B2B;
+    padding-right: 12px;
+    box-sizing: border-box;
+
+
+    color: #2D2B2B;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .head .right-side .type {
+    width: 57px;
+    height: 20px;
+    align-items: center;
+    padding-left: 15px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    background: #384455;
+    border-radius: 10px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .head .right-side .type span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    /* identical to box height */
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    gap: 40px;
+    border-top: 1px solid #F1F5F7;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .selected {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+    align-items: center;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .selected .try-question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .selected .try-question svg {
+    margin-right: 6px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .selected .try-question span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #827C7C;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .selected .remove-question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .selected .remove-question svg {
+    margin-right: 6px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .selected .remove-question span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #827C7C;
+}
+
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .question-type .mcq {
+    border-left: 1px solid #F1F5F7;
+    padding-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #384455
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .left-side {
+    display: flex;
+    flex-direction: row;
+    /* gap: 40px; */
+    font-family: 'Roboto';
+    width: 65%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F23E3E;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .left-side .left-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .left-side .left-footer .health {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 1px solid #F1F5F7;
+    padding-right: 10px;
+    box-sizing: border-box;
+    gap: 5px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .left-side .right-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .left-side .right-footer .score {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .left-side .right-footer .tags {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards .detailed-question-card .row1 .bottom .right-side {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 20px;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards  .random-skill-test-overview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards  .random-skill-test-overview-container span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+    text-transform: capitalize;
+}
+
+.assessment-question .assessment-question-container .assessment-question-container-right .assessment-question-content .question-cards  .random-skill-test-overview-container .easy-container{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-top: 10px;
+    border: 1px solid #DDDDDD;
+    padding: 5px 5px;
+    width: 71vw;
+}

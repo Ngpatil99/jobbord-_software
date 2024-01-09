@@ -1,0 +1,711 @@
+.create-test3-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.create-test3-container .create-test3 {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 70px);
+    position: relative;
+}
+
+.create-test3-container .create-test3 .left-content {
+    width: 20vw;
+}
+
+.create-test3-container .create-test3 .create-test3-content {
+    background-color: #F1F5F7;
+    width: 80vw;
+    height: calc(100vh - 70px);
+    padding: 30px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.create-test3-container .create-test3 .create-test3-content::-webkit-scrollbar {
+    display: none;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content ::-webkit-scrollbar {
+    display: none;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .col .header-bar {
+    width: 100%;
+    height: 1px;
+    background-color: #FEE9E1;
+    margin-top: 10px;
+}
+
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .header .title {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .header .title .group {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .header .title .group span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .header .title .group p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .header .button-container-of-question-overview {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .header .button-container-of-question-overview .back-button {
+    background: #827C7C;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 98px;
+    border: none;
+    gap: 11px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .header .button-container-of-question-overview .back-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .header .button-container-of-question-overview .next-button {
+    background: #00c49a;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 97px;
+    border: none;
+    gap: 11px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .header .button-container-of-question-overview .next-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+/* ******************buttons container styling********************* */
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .buttons-container .buttons-group {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .buttons-container .score-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .buttons-container .score-group span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .buttons-container .Choose-From-Library {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background: #FF6812;
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 13vw;
+    height: 35px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .buttons-container .Choose-From-Library span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .buttons-container .Create-New-Question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background: #00C49A;
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 13vw;
+    height: 35px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .buttons-container .Create-New-Question span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .buttons-container .Detailed-Questions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    background: #384455;
+    border-radius: 2px;
+    padding: 12px 15px;
+    height: 44px;
+    gap: 12px;
+    cursor: pointer;
+}
+
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .buttons-container .Detailed-Questions span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+
+
+
+/* ******************************question-container-styling****************** */
+
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-title {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #353537;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .left-header {
+    display: flex;
+    flex-direction: row;
+    /* width: 40%; */
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .left-header .easy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 13px;
+    gap: 10px;
+    /* width: 32%; */
+    height: 45px;
+
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .left-header .easy-active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 13px;
+    gap: 10px;
+    /* width: 32%; */
+    height: 45px;
+
+    background-color: #00C49A;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .left-header .easy-active svg {
+    color: white;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .left-header .easy-active input {
+    accent-color: #F23E3E;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border: 1px solid #DDDDDD;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .left-header .easy-active input[type=checkbox]:checked:before {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .left-header .medium {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 13px;
+    gap: 10px;
+    /* width: 36%; */
+    height: 45px;
+
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .left-header .medium-active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 13px;
+    gap: 10px;
+    /* width: 36%; */
+    height: 45px;
+    background: #FF9736;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .left-header .hard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 13px;
+    gap: 10px;
+    /* width: 32%; */
+    height: 45px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .left-header .hard-active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 13px;
+    gap: 10px;
+    /* width: 32%; */
+    height: 45px;
+    border-width: 1px 1px 1px 1px;
+    background: #FF6812;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .right-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* width: 40%; */
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .right-header .remove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 28px;
+    width: 159px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .right-header .remove svg {
+    margin-right: 6px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .right-header .remove span {
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F23E3E;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .right-header .input-type {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: auto;
+    float: left;
+    overflow: hidden;
+    /* width: 30%; */
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .right-header .input-type .select-box {
+    height: 45px;
+    background: #FFFFFF;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-radius: 2px;
+    padding: 10px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+    box-sizing: border-box;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .right-header .input-type .select-box select {
+    outline: none;
+    min-width: 80%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    
+    /* identical to box height, or 169% */
+
+
+    color: #333333;
+
+   
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question-header .right-header .input-type .select-box .vector-svg {
+    position: absolute;
+    top: 16px;
+    right: 17px;
+}
+
+/* .create-test3-container .create-test3 .create-test3-content .test3-content .question-container .container {
+    width: 100%;
+    height: auto;
+    border: 1px solid #00C49A;
+    background: #FFFFFF;
+} */
+
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    padding: 8px 0px;
+    padding-left: 23px;
+    padding-right: 23px;
+    width: 100%;
+}
+
+
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .content {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .content svg{
+    cursor: pointer;
+    width: 15px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .content span {
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #696974;
+    width: 100%;
+    cursor: pointer;
+    word-break: break-all;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .content input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .options {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .options .question-score .score {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    cursor: pointer;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .options .question-score .score span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #696767;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .options .question-score .score input {
+    border: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    width: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #696767;
+    text-align: center;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .options .icons {
+    width: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .options .question-type {
+    background: #D9E1E7;
+    border-radius: 100px;
+    padding: 4px 7px 4px 7px;
+    margin-right: 16px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.create-test3-container .create-test3 .create-test3-content .test3-content .question-container .question .options .question-type span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #333333;
+}

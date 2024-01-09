@@ -1,0 +1,207 @@
+.profile-new-password-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background:  #F1F5F7;
+   
+}
+
+.profile-new-password-container .new-password-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.profile-new-password-container .new-password-container .right-container {
+    box-sizing: border-box;
+    width: 80vw;
+    height: calc(100vh - 70px);
+    overflow: auto;
+    margin: 40px;
+}
+
+.profile-new-password-container .new-password-container .right-container::-webkit-scrollbar {
+    display: none;
+}
+
+.profile-new-password-container .new-password-container .right-container .password {
+    width: 100%;
+    height: 80vh;
+    background-color: #FFFFFF;
+    border-top: 5px #00C49A solid;
+    border-radius: 2px;
+    padding-top: 35px;
+    padding-left: 29px;
+    padding-right: 29px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .col .heading-border {
+    width: 100%;
+    height: 1px;
+    background-color: #FEE9E1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.profile-new-password-container .new-password-container .right-container .password .heading-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* height: 48px; */
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+.profile-new-password-container .new-password-container .right-container .password .heading-bar .title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .heading-bar .title .group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px
+}
+
+.profile-new-password-container .new-password-container .right-container .password .heading-bar .title .group span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+
+    color: #333333;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .heading-bar .title .group p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .heading-bar .reset-button {
+    background: #00c49a;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 107px;
+    border: none;
+    gap: 11px;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .heading-bar .reset-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .row {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .row .input {
+    width: 47%;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .row .input span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .row .input .input-box1 {
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    height: 50px;
+    position: relative;
+    border-radius: 2px;
+    margin-top: 9px;
+    align-items: center;
+    display: flex;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .row .input .input-box1 .lock {
+    margin-left: 13px;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .row .input .input-box1 .eye {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .row .input .input-box1 input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .row .input .password-strength-indicator {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.profile-new-password-container .new-password-container .right-container .password .row .input .password-strength-indicator span {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #AAAAAA;
+}
+
+.profile-new-password-container .new-password-container .right-container .password .row .input .password-strength-indicator .indicator {
+    width: 198px;
+    height: 5px;
+    background: #00C49A;
+    border-radius: 50px;
+}

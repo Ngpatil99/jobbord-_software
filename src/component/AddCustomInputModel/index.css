@@ -1,0 +1,252 @@
+.test-type-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 2px;
+}
+
+.test-type-container .test-type-box {
+    width: 550px;
+    height: auto;
+    padding: 26px 25px 20px 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.test-type-container .test-type-box .header {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.test-type-container .test-type-box .header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.test-type-container .test-type-box .header .title span {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.test-type-container .test-type-box .header .header-border {
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.test-type-container .test-type-box .test-type {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.test-type-container .test-type-box .test-type .test-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+.test-type-container .test-type-box .details {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 27px;
+    width: 100%;
+}
+
+.test-type-container .test-type-box .details .label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+
+}
+
+.test-type-container .test-type-box .details .label input {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    height: 50px;
+    border-radius: 2px;
+    padding-left: 15px;
+}
+
+.test-type-container .test-type-box .details .label span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+.test-type-container .test-type-box .details .input-type {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 46%;
+}
+
+.test-type-container .test-type-box .details .input-type .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+}
+
+.test-type-container .test-type-box .details .input-type .select-box select {
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 15px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.test-type-container .test-type-box .details .input-type .select-box .vector-svg {
+    position: absolute;
+    top: 16px;
+    right: 17px;
+}
+
+.test-type-container .test-type-box .details .input-type span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+
+.test-type-container .test-type-box .placeholder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.test-type-container .test-type-box .placeholder .placeholder-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.test-type-container .test-type-box .placeholder .search {
+    border: 1px solid #DDDDDD;
+    position: relative;
+    padding-right: 10px;
+    /* padding-left: 18px; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.test-type-container .test-type-box .placeholder .search input {
+    border: none;
+    width: 97%;
+    outline: none;
+    padding-left: 15px;
+}
+
+
+.test-type-container .test-type-box .button .cancel-btn {
+    width: 111px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #827C7C;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.test-type-container .test-type-box .button .cancel-btn button {
+    background: #827C7C;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.test-type-container .test-type-box .button .cancel-btn svg {
+    margin-right: 10px;
+}
+
+.test-type-container .test-type-box .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.test-type-container .test-type-box .button .next-btn {
+    width: 94px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #00C49A;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.test-type-container .test-type-box .button .next-btn svg {
+    margin-right: 10px;
+}
+
+.test-type-container .test-type-box .button .next-btn button {
+    background: #00C49A;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}

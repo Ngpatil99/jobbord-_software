@@ -1,0 +1,118 @@
+
+.test-admin-skeleton-container{
+    height: auto;
+    width: auto;
+    padding: 26px 30px 30px 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.test-admin-skeleton-container .skeleton-admin-data-table .admin-table {
+    border-radius: 2px;
+    width: 100%;
+    background: #FFFFFF;
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-radius: 2px;
+  
+}
+
+
+.test-admin-skeleton-container .skeleton-admin-data-table .admin-table .admin-table-header {
+    background: #F1F5F7;
+    height: 40px;
+    /* width: 100%; */
+    /* /* padding-left: 20px; */
+    padding-right: 30px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+
+
+
+
+.test-admin-container .test-type-box .skeleton-admin-data-table .admin-table td {
+    height: 40px;
+    padding: 15px;
+    width: 100%;
+    
+    /* text-align: center; */
+}
+
+
+
+.test-admin-container .test-type-box .skeleton-admin-data-table .admin-table td:nth-child(1) {
+    height: 40px;
+    border-right: 1px solid #DDDDDD;
+    width: 30%;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    
+}
+
+.test-admin-container .test-type-box .skeleton-admin-data-table .admin-table td:nth-child(1) div {
+    height: 20px;
+    width: 80%;
+    align-self: center;
+}
+
+.test-admin-container .test-type-box .skeleton-admin-data-table .admin-table td:nth-child(3) {
+    padding-left: 48px;
+    height: 40px;
+    width: 30%;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.test-admin-container .test-type-box .skeleton-admin-data-table .admin-table td:nth-child(3) div {
+    height: 20px;
+    width: 80%;
+    align-self: center;
+}
+
+.test-admin-container .test-type-box .skeleton-admin-data-table .admin-table td:nth-child(2) div {
+    height: 20px;
+    width: 80%;
+    align-self: center;
+}
+.test-admin-container .test-type-box .skeleton-admin-data-table .admin-table td:nth-child(2) {
+    padding-left: 35px;
+    height: 40px;
+    border-right: 1px solid #DDDDDD;
+    width: 30%;
+    border-bottom: 1px solid #DDDDDD;
+    
+
+}
+
+.skeleton {
+    background-color: #e3e3e3 !important;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.skeleton::after {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.2) 20%,
+            transparent);
+    animation: shimmer 2s infinite;
+    content: "";
+}
+
+@keyframes shimmer {
+    90% {
+        transform: translateX(80%);
+    }
+}

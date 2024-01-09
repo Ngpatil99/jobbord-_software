@@ -1,0 +1,851 @@
+.test-type-container-model {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background: rgba(10, 9, 9, 0.56);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    
+}
+
+.test-type-container-model .test-type-box {
+    width: 590px;
+    
+    padding: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    box-shadow: 10px 10px 50px rgba(100, 96, 96, 0.08);
+    border-radius: 2px;
+    overflow-y:scroll ;
+
+}
+
+.test-type-container-model .test-type-box .header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.test-type-container-model .test-type-box .header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.test-type-container-model .test-type-box .header .title span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #000000;
+
+}
+
+.test-type-container-model .test-type-box .header .header-border {
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.test-type-container-model .test-type-box .test-type {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-type-container-model .test-type-box .test-type .error-header {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    /* identical to box height, or 138% */
+
+
+    color: red;
+    margin-top: 5px;
+}
+
+.test-type-container-model .test-type-box .test-type .test-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.test-type-container-model .test-type-box .test-type .test-btn .unselected-test {
+    width: 47.5%;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    height: 50px;
+    cursor: pointer;
+}
+
+.test-type-container-model .test-type-box .test-type .test-btn .unselected-test span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #252424;
+}
+
+.test-type-container-model .test-type-box .test-type .test-btn .selected-test {
+    width: 47.5%;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid #FF6812;
+    height: 50px;
+    cursor: pointer;
+    color: #FF6812;
+}
+
+.test-type-container-model .test-type-box .test-type .test-btn .selected-test span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #FF6812;
+}
+
+.test-type-container-model .test-type-box .test-type .test-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.test-type-container-model .test-type-box .test-type .library-type {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.test-type-container-model .test-type-box .test-type .library-type .library-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.test-type-container-model .test-type-box .test-type .library-type .library-btn svg {
+    cursor: pointer;
+}
+
+
+.test-type-container-model .test-type-box .test-type .library-type .library-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    color: #252424;
+
+}
+
+.test-type-container-model .test-type-box .details {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+}
+
+.test-type-container-model .test-type-box .details .experience {
+    display: flex;
+    flex-direction: column;
+    width: 47.5%;
+
+}
+
+.test-type-container-model .test-type-box .details .experience span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+.test-type-container-model .test-type-box .details .experience span label {
+    vertical-align: top;
+    display: inline-block;
+    color: red;
+}
+
+.test-type-container-model .test-type-box .details .job-role {
+    display: flex;
+    flex-direction: column;
+    width: 47.5%;
+}
+
+.test-type-container-model .test-type-box .details .job-role .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+}
+
+.test-type-container-model .test-type-box .details .job-role .select-box select {
+    outline: none;
+    width: 95%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 16px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+    text-transform: capitalize;
+}
+
+
+
+.test-type-container-model .test-type-box .details .job-role .select-box .vector-svg {
+    position: absolute;
+    top: 21px;
+    right: 17px;
+}
+
+.test-type-container-model .test-type-box .details .job-role span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+.test-type-container-model .test-type-box .details .job-role span label {
+    vertical-align: top;
+    display: inline-block;
+    color: red;
+}
+
+.test-type-container-model .test-type-box .details .job-role .error-header {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    /* identical to box height, or 138% */
+
+
+    color: red;
+    margin-top: 5px;
+}
+
+.test-type-container-model .test-type-box .details .experience .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+}
+
+.test-type-container-model .test-type-box .details .experience .select-box select {
+    outline: none;
+    width: 94%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 16px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+}
+
+.test-type-container-model .test-type-box .details .experience .select-box .vector-svg {
+    position: absolute;
+    top: 21px;
+    right: 17px;
+}
+
+.test-type-container-model .test-type-box .details .experience .error-header {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    /* identical to box height, or 138% */
+
+
+    color: red;
+    margin-top: 5px;
+}
+
+.test-type-container-model .test-type-box .skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.test-type-container-model .test-type-box .skills .skill-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.test-type-container-model .test-type-box .skills .search {
+    border: 1px solid #DDDDDD;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 40px;
+    align-items: center;
+}
+
+.test-type-container-model .test-type-box .skills .search .search-svg {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.test-type-container-model .test-type-box .skills .search .tag-svg {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+
+.test-type-container-model .test-type-box .skills .search input {
+    border: none;
+    width: 83%;
+    outline: none;
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.test-type-container-model .test-type-box .skills .skills-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin-top: 3px;
+}
+
+.test-type-container-model .test-type-box .skills .skills-icons .skill-icon {
+    display: flex;
+    background: #F8F8F8;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    padding: 7px 8px 7px 16px;
+    gap: 3px;
+}
+
+.test-type-container-model .test-type-box .skills .skills-icons .skill-icon span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* Black */
+
+    color: #1B2126;
+
+}
+
+.test-type-container-model .test-type-box .skills .skills-icons .skill-icon svg {
+    cursor: pointer;
+}
+
+.test-type-container-model .test-type-box .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.test-type-container-model .test-type-box .button .next-btn {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00C49A;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.test-type-container-model .test-type-box .button .next-btn button {
+    font-family: 'Roboto';
+    font-style: normal;
+    background: #00C49A;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+
+/* *********** issue solving************ */
+
+.test-type-container-model .test-type-box .skill-topics-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #333333;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container .error-header {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    /* identical to box height, or 138% */
+
+
+    color: red;
+    margin-top: 5px;
+
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container span {
+    vertical-align: top;
+    display: inline-block;
+    color: red;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container .inputbox-skill {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 0px 15px;
+    margin-top: 10px;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container .inputbox-skill:focus-within {
+    border: 1px solid #000;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container .inputbox-skill input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 0px 15px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .suggested-skill-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+    height: auto;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .suggested-skill-main-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .suggested-skill-main-container .suggested-skill-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .suggested-skill-main-container .suggested-skill-list-container .skills-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 10px;
+    background: #F8F8F8;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .suggested-skill-note {
+    margin-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #827C7C;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .suggested-skill-main-container .suggested-skill-list-container .skills-item-container span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #1B2126
+}
+
+/* .test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin-top: 19px;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 30vh;
+    margin-top: 10px;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button {
+    background: #F8F8F8;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    padding: 7px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+
+    letter-spacing: 0.02em;
+
+
+    color: #1B2126;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button:hover {
+    border: 1px solid #00C49A;
+    color: #00C49A;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button:hover span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+   
+    letter-spacing: 0.02em;
+
+    color: #00C49A;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button:hover svg circle {
+    fill: #00C49A;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button:hover svg path {
+    stroke: white;
+}
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .border{
+    min-height: 30vh;
+    background-color: #141414;
+    width: 0.5px;
+}
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .suggested-main-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 10px;
+}
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .suggested-main-container label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+ 
+
+    color: #333333;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 2px;
+    flex-wrap: wrap;
+    margin-top: 19px;
+    gap: 10px;
+    min-height: 30vh;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button {
+    background: #F8F8F8;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    padding: 7px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+   
+    letter-spacing: 0.02em;
+
+   
+    color: #1B2126;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button:hover {
+    border: 1px solid #00C49A;
+    color: #00C49A;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button:hover span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  
+    letter-spacing: 0.02em;
+
+    color: #00C49A;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button:hover svg circle {
+    fill: #00C49A;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button:hover svg path {
+    stroke: white;
+} */
+
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container .search-result-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: auto;
+    top: 5.5em;
+    padding: 10px 10px;
+    background: #F1F5F7;
+    border-radius: 2px;
+    z-index: 10;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container .search-result-container .skill-item {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 10px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container .search-result-container .skill-item span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+
+
+    color: #000000;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.test-type-container-model .test-type-box .skill-topics-container .skill-input-header-container .search-result-container .skill-item:hover {
+    background: rgba(56, 68, 85, 0.1);
+    border-radius: 2px;
+}
+
+
+.test-type-container-model .test-type-box .details .custome-test-job-role {
+    display: flex;
+    flex-direction: column;
+    width: 209%;
+}
+
+.test-type-container-model .test-type-box .details .custome-test-job-role .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+}
+
+.test-type-container-model .test-type-box .details .custome-test-job-role .select-box select {
+    outline: none;
+    width:96%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 16px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+    text-transform: capitalize;
+}
+
+
+
+.test-type-container-model .test-type-box .details .custome-test-job-role .select-box .vector-svg {
+    position: absolute;
+    top: 21px;
+    right: 17px;
+}
+
+.test-type-container-model .test-type-box .details .custome-test-job-role span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+.test-type-container-model .test-type-box .details .custome-test-job-role span label {
+    vertical-align: top;
+    display: inline-block;
+    color: red;
+}
+
+.test-type-container-model .test-type-box .details .custome-test-job-role .error-header {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    /* identical to box height, or 138% */
+
+
+    color: red;
+    margin-top: 5px;
+}
+
+
+
+
+

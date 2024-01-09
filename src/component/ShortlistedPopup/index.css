@@ -1,0 +1,158 @@
+.shortlist-container {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 2px;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+
+}
+
+.shortlist-container .shortlist-type-box {
+    width: 35vw;
+    height: 259px;
+    padding: 20px 25px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shortlist-container .shortlist-type-box .header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shortlist-container .shortlist-type-box .header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.shortlist-container .shortlist-type-box .header .title svg {
+    cursor: pointer;
+}
+
+
+.shortlist-container .shortlist-type-box .header .header-border {
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+/* ********************************content styling*************************** */
+
+.shortlist-container .shortlist-type-box .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+.shortlist-container .shortlist-type-box .content .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shortlist-container .shortlist-type-box .content .content-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shortlist-container .shortlist-type-box .content .content-heading span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+.shortlist-container .shortlist-type-box .content .content-heading p {
+    margin-top: 8px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+
+    text-align: center;
+
+    color: #636968;
+}
+
+.shortlist-container .shortlist-type-box .content .content-heading p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+/* ********************************button styling************************ */
+
+
+.shortlist-container .shortlist-type-box .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.shortlist-container .shortlist-type-box .button .cancel-btn {
+    width: 90px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #999999;
+    border-radius: 2px;
+    cursor: pointer;
+    gap: 5px
+}
+
+.shortlist-container .shortlist-type-box .button .cancel-btn button {
+    background: #999999;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.shortlist-container .shortlist-type-box .button .next-btn {
+    width: 90px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #FF5757;
+    border-radius: 2px;
+    cursor: pointer;
+    gap: 5px
+}
+
+.shortlist-container .shortlist-type-box .button .next-btn button {
+    background: #FF5757;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}

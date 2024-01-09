@@ -1,0 +1,916 @@
+.create-test-2-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.create-test-2-container .create-test-2 {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 70px);
+}
+
+.create-test-2-container .create-test-2 .create-test-2-sideba {
+    width: 20vw;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content {
+    background-color: #F1F5F7;
+    width: 80vw;
+    height: calc(100vh - 70px);
+    padding: 30px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content::-webkit-scrollbar {
+    display: none;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content ::-webkit-scrollbar {
+    display: none;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .col .header-bar {
+    width: 100%;
+    height: 1px;
+    background-color: #FEE9E1;
+    margin-top: 30px;
+}
+
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .title .group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .title .group span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .title .group p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .back-button {
+    background: #827C7C;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 44px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 98px;
+    border: none;
+    gap: 11px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .back-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .next-button {
+    background: #00c49a;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 44px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 97px;
+    border: none;
+    gap: 11px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .next-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table .question-table {
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table .question-table .table-header {
+    background-color: #F1F5F7;
+    height: 40px;
+    /* width: 100%; */
+    /* /* padding-left: 20px; */
+    padding-right: 30px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table .question-table .table-header th {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+
+    color: #333333;
+
+
+}
+
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table .table-header th:nth-child(1) {
+    left: 20px;
+    width: 30%;
+    text-align: left;
+    padding-left: 20px;
+    height: 50px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table .table-header th:nth-child(2) {
+    /* margin-left: 20px; */
+    text-align: left;
+    width: 30%;
+    height: 50px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table .table-header th:nth-child(3) {
+    width: 20%;
+    text-align: right;
+    border: none;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table .table-header th:nth-child(4) {
+    width: 15%;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table td {
+    border-top: 1px solid #DDDDDD;
+    height: 40px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table td:nth-child(1) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    height: 50px;
+    text-transform: capitalize;
+
+    color: #333333;
+    padding-left: 20px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table td:nth-child(2) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    height: 50px;
+    color: #696974;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table td:nth-child(3) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #696974;
+    text-align: right;
+    padding-right: 3%;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table td:nth-child(4) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #696974;
+    text-align: right;
+    padding-right: 7%;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .question-type-table .question-table .duration {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/* ************skill set styling***************** */
+
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skill-heading {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skill-heading span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skill-heading .combine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skill-heading .combine .randomise-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skill-heading .combine .randomise-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #333333;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skill-heading .skillset-button {
+    height: 44px;
+    width: 156px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #FF6812;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skill-heading .skillset-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+
+
+/* *************skill table styling*************** */
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table {
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-radius: 2px;
+    width: 100%;
+}
+
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table .skill-table-header {
+    background: #00C49A;
+    height: 40px;
+    /* width: 100%; */
+    /* /* padding-left: 20px; */
+    padding-right: 30px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table th {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    border-right: 1px solid #DDDDDD;
+}
+
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table th:nth-child(1) {
+    width: 8%;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table th:nth-child(2) {
+    width: 13%;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table th:nth-child(3) {
+    width: 13%;
+    height: 36px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table th:nth-child(4) {
+    width: 18%;
+    height: 36px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table th:nth-child(5) {
+    width: 15%;
+    height: 36px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table th:nth-child(6) {
+    width: 12%;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table th:nth-child(7) {
+    width: 11%;
+
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table th:nth-child(8) {
+    width: 11%;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table td {
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    height: 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table td:nth-child(1) {
+    padding-left: 15px;
+    height: 45px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table td:nth-child(2) {
+    padding-left: 20px;
+    height: 45px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table td:nth-child(3) {
+    padding-left: 20px;
+    padding-right: 10px;
+    height: 45px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table td:nth-child(4) {
+    padding-left: 20px;
+    height: 45px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table td:nth-child(5) {
+    padding-left: 26px;
+    height: 45px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table td:nth-child(6) {
+    padding-left: 26px;
+    height: 45px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table td:nth-child(7) {
+    height: 45px;
+    padding: 0px 38px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .skillset-container .skillset-table .skill-table td:nth-child(8) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 45px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .back-button {
+    background: #827C7C;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 44px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 97px;
+    border: none;
+    gap: 11px;
+}
+
+.create-test-2-container .create-test-2 .create-test-2-content .test-2-content .header .back-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.reading-img {
+    display: flex;
+    align-self: center;
+}
+
+.buttons-container .buttons-group {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    /* align-self: center; */
+}
+
+.buttons-container .Choose-From-Library {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background: #FF6812;
+    border-radius: 2px;
+    padding: 0px 5px;
+    /* width: 13vw; */
+    height: 42px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.buttons-container .Choose-From-Library span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.buttons-container .Create-New-Question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background: #00C49A;
+    border-radius: 2px;
+    padding: 0px 5px;
+    /* width: 13vw; */
+    height: 42px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.buttons-container .Create-New-Question span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.buttons-container .add-skill-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background: #384455;
+    border-radius: 2px;
+    padding: 0px 5px;
+    /* width: 13vw; */
+    height: 42px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.buttons-container .add-skill-set span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.info-container {
+    border-left: 5px solid #FF6812;
+    padding: 5px;
+    background-color: #FEE9E1;
+    display: 'flex';
+    justify-content: center;
+}
+
+
+.info-container .info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+    border-radius: 5px;
+    padding: 0px 5px;
+    /* width: 13vw; */
+    /* height: 35px; */
+    gap: 5px;
+    cursor: pointer;
+}
+
+.info-container .info span {
+    color: #696767;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    padding-left: 10px;
+}
+
+.left-icon-with-text {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-icon-with-text img {
+    width: 24px;
+    /* Adjust the width as needed */
+    height: 24px;
+    /* Adjust the height as needed */
+    margin-right: 8px;
+    /* Adjust the margin as needed to separate the icon from text */
+}
+
+.left-icon-with-text-score {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.left-icon-with-text-score img {
+    width: 24px;
+    /* Adjust the width as needed */
+    height: 24px;
+    /* Adjust the height as needed */
+    margin-right: 3px;
+    /* Adjust the margin as needed to separate the icon from text */
+}
+
+.outer-container {
+    border: 1px solid #ccc;
+    padding: 8px;
+    flex-direction: row;
+    flex-direction: row;
+    display: flex;
+    border: 1px solid #ccc;
+    /* Solid gray border */
+    padding: 7px;
+    /* Optional: Add padding for better spacing */
+}
+
+.container {
+    display: flex;
+    border: none;
+    /* Remove border for the inner container */
+}
+
+.button-container,
+.icon-container {
+    border: none;
+    display: flex;
+    padding: 4px;
+}
+
+.button-container {
+    justify-content: center;
+    display: flex;
+    /* border-right: 1px solid #ccc; */
+    /* Solid gray border between the two divs */
+}
+
+.info-container-success {
+    /* border-left: 5px solid #FF6812; */
+    /* padding: 5px; */
+    background-color: #C5FFF3;
+    display: 'flex';
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.info-container-left {
+    display: 'flex';
+    justify-content: center;
+    margin-top: 10px;
+    border: solid 1px #DDD;
+}
+
+.info-container-success .info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.info-container-left .info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 1px;
+    gap: 5px;
+    cursor: pointer;
+    justify-content: center;
+    padding: 11px;
+}
+
+.info-container-success .info span {
+    color: #696767;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.first-grid {
+    border: 1px solid gray;
+    /* Add a gray border to the first grid */
+    text-align: center;
+    /* Center the text in the first grid */
+}
+
+.info-container-warning {
+    background-color: #FFE4CB;
+    display: 'flex';
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.info-container-warning .info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.info-container-warning .info span {
+    color: #696767;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.info-container-danger {
+    background-color: #FEE9E1;
+    display: 'flex';
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.info-container-danger .info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.info-container-danger .info span {
+    color: #696767;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.left-icon-with-text span {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.all-icon-lebel {
+    color: #333;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 169.231% */
+    cursor: pointer;
+}
+
+.tab-label {
+    color: #333;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 169.231% */
+}
+
+.mcq-label {
+    display: inline-flex;
+    padding: 4px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: #D9E1E7;
+    font-size: 12px !important;
+}
+
+.score-label {
+    color: #696767;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+.que-container .css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input{
+    height: 10px !important;
+}
+.que-container{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #DDD;
+    padding-top: 10px;
+}
+.que-container-dynamic-border{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #FF9736;
+    padding-top: 10px;
+}
+.heading-1{
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.p-tabs .css-1ujykiq-MuiButtonBase-root-MuiTab-root{
+    padding: 5px 3px !important
+}
+.p-tabs .css-j204z7-MuiFormControlLabel-root{
+    margin-left: -12px !important;
+    margin-right: 2px !important;
+}
+.p-tabs .css-251er{
+    padding: 0px 0px !important;
+}

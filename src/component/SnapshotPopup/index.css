@@ -1,0 +1,144 @@
+.snapshot {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.snapshot .snapshot-box {
+    width: 828px;
+    height: 500px;
+    padding: 26px 30px 34px 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    box-shadow: 10px 10px 50px rgba(100, 96, 96, 0.08);
+    gap: 30px;
+    /* overflow: auto; */
+}
+
+.snapshot .snapshot-box .snapshot-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 30px;
+}
+
+.snapshot .snapshot-box .snapshot-header span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #000000;
+}
+
+.snapshot .snapshot-box .snapshot-check-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.snapshot .snapshot-box .snapshot-check-box .snapshot-input {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.snapshot .snapshot-box .snapshot-check-box .snapshot-input span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.snapshot .snapshot-box .snapshot-pic-container {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    overflow: auto;
+}
+
+.snapshot .snapshot-box .snapshot-pic-container .snapshot-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: auto;
+    width: 50%;
+}
+
+.snapshot .snapshot-box .snapshot-pic-container .snapshot-left-container .row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.snapshot .snapshot-box .snapshot-pic-container .snapshot-right-cotnainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 50%;
+}
+
+.snapshot .snapshot-box .snapshot-pic-container .snapshot-right-cotnainer .right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 94%;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.snapshot .snapshot-box .snapshot-pic-container .snapshot-right-cotnainer .right-box svg {
+    cursor: pointer;
+}
+
+.snapshot .snapshot-box .snapshot-pic-container .snapshot-right-cotnainer .right-box img {
+    width: 344px;
+    height: 196px;
+}
+
+.snapshot .snapshot-box .snapshot-pic-container .snapshot-right-cotnainer .right-box .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    gap: 17px;
+}
+
+.snapshot .snapshot-box .snapshot-pic-container .snapshot-right-cotnainer .right-box .navigation span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #313131;
+}

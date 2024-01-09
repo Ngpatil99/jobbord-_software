@@ -1,0 +1,90 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    width: 47vw;
+    height: 113px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.card-container .left-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 75%;
+    /* height: 100px; */
+    background-color: white;
+    padding: 29px 0px 36px 22px;
+    box-sizing: border-box;
+    border-right: 1px solid #DDDDDD;
+}
+
+.card-container .left-card span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #313131;
+}
+
+.card-container .left-card .candidate-id {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-container .left-card .candidate-id span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.card-container .right-card {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* align-items: center; */
+    gap: 2px;
+    justify-content: left;
+    text-align: left;
+    width: 25%;
+    height: 100%;
+    padding: 31px 0px 31px 30.5px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.card-container .right-card span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #00C49A;
+}
+
+.card-container .right-card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+
+}

@@ -1,0 +1,120 @@
+.question-analytics {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.question-analytics .question-analytics-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.question-analytics .question-analytics-container .question-analytics-left {
+    display: flex;
+    width: 20vw;
+}
+
+.question-analytics .question-analytics-container .question-analytics-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 80px 40px;
+    overflow: auto;
+}
+
+.question-analytics .question-analytics-container .question-analytics-right .question-analytics-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* min-height: 100vh; */
+    background: #FFFFFF;
+    padding: 30px;
+    gap: 30px;
+}
+
+
+/* *************************header************************** */
+
+
+.question-analytics .question-analytics-container .question-analytics-right .question-analytics-content .question-taken-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid #DDDDDD;
+    z-index: 5;
+    /* gap: 66px; */
+}
+
+.question-analytics .question-analytics-container .question-analytics-right .question-analytics-content .question-taken-header .question-not-active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.question-analytics .question-analytics-container .question-analytics-right .question-analytics-content .question-taken-header .question-not-active span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #49484C;
+}
+
+
+.question-analytics .question-analytics-container .question-analytics-right .question-analytics-content .question-taken-header .question-active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 23px;
+    z-index: 10;
+    border-bottom: 2px solid #FF6812;
+}
+
+.question-analytics .question-analytics-container .question-analytics-right .question-analytics-content .question-taken-header .question-active span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FF6812;
+}
+
+.question-analytics .question-analytics-container .question-analytics-right .question-analytics-content .question-select {
+    background: #FFFFFF;
+    border: 1px solid #00C49A;
+    border-radius: 2px;
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+}
+
+.question-analytics .question-analytics-container .question-analytics-right .question-analytics-content .question-select select {
+    width: 87%;
+    height: 98%;
+    border: none;
+}
+
+.question-analytics .question-analytics-container .question-analytics-right .question-analytics-content .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

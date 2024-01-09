@@ -1,0 +1,213 @@
+.dashboard-card-container {
+    padding: 20px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    border: 0.7px solid transparent;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dashboard-card-container:hover {
+    box-shadow: 0px 15px 20px -3px rgba(0, 0, 0, 0.05);
+    border: 0.7px solid #FF6812;
+}
+
+.dashboard-card-container .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    color: #313131;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.dashboard-card-container .left-side .header {
+    gap: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-card-container .left-side span {
+    text-transform: capitalize;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #313131;
+}
+.dashboard-card-container .left-side label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #827C7C;
+    align-self: center;
+}
+.dashboard-card-container .left-side .status-button {
+    height: 25px;
+    background: #FEE9E1;
+    border-radius: 500px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10px;
+    gap: 4px;
+}
+
+.dashboard-card-container .left-side .status-button .circle {
+    width: 25px;
+    height: 25px;
+    background: #FF6812;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-card-container .left-side .status-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #2D2B2B;
+}
+
+/* .dashboard-card-container .head-container svg {
+    cursor: pointer;
+} */
+
+.dashboard-card-container .left-side .info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #827C7C;
+}
+
+.dashboard-card-container .left-side .info label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+
+}
+
+.dashboard-card-container .left-side .bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 31px;
+    /*margin-top: 10px;*/
+}
+
+.dashboard-card-container .left-side .bottom-container .box {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-card-container .bottom-container .box span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #333333;
+    margin-left: 5px;
+}
+
+.dashboard-card-container .right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.dashboard-card-container .right-side .header {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-card-container .right-side .header span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #000000;
+    text-align: end;
+
+}
+
+.dashboard-card-container .right-side .header p {
+    text-align: end;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.dashboard-card-container .right-side .bottom-container {
+    display: flex;
+    gap: 20px;
+}
+
+.dashboard-card-container .right-side .bottom-container button {
+    cursor: pointer;
+    height: 30px;
+    padding: 0px 18px;
+    border: 0.5px solid #384455;
+    border-radius: 2px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-card-container .right-side .bottom-container button svg {
+    margin-right: 10px;
+}
+
+.dashboard-card-container .right-side .bottom-container button span {
+    font-size: 12px;
+    color: #384455;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dashboard-card-container .right-side .bottom-container button:hover {
+    border: 0.5px solid #00C49A;
+}
+
+.dashboard-card-container .right-side .bottom-container button:hover span {
+    color: #00C49A;
+}
+
+.dashboard-card-container .right-side .bottom-container button:hover path {
+    stroke: #00C49A;
+}

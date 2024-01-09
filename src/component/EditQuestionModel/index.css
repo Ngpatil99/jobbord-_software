@@ -1,0 +1,510 @@
+.Edit-question-parent-model-container .cancel-icon {
+    position: absolute;
+    left: 25%;
+    top: 3%;
+    cursor: pointer;
+}
+
+.Edit-question-parent-model-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container {
+    display: flex;
+    width: 70vw;
+    height: 100%;
+    flex-direction: column;
+    gap: 30px;
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 0px;
+    padding: 30px 30px;
+    overflow: auto;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .header-and-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .header-and-button-container .header-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .header-and-button-container .header-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .header-and-button-container .button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .header-and-button-container .button-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 95px;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .header-and-button-container .button-container button label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-question-title-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 17px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-question-title-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-question-title-container input {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 15px 15px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-score-diffuculty-level-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-score-diffuculty-level-container .edit-score-input-container {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-score-diffuculty-level-container .edit-score-input-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-score-diffuculty-level-container .edit-score-input-container input {
+    width: 100%;
+    height: 50px;
+    padding: 18px 18px;
+    outline: none;
+    border: none;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-score-diffuculty-level-container .edit-difficulty-level-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-score-diffuculty-level-container .edit-difficulty-level-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-score-diffuculty-level-container .edit-difficulty-level-container .edit-difficulty-button-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 15px
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-score-diffuculty-level-container .edit-difficulty-level-container .edit-difficulty-button-container button {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    width: 9.9vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-skill-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-skill-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #333333;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-skill-container .search-result-container {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-skill-container .search-result-container .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 10px;
+    height: 30px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-skill-container .edit-search-skill-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 17px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    gap: 14px;
+
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-skill-container .edit-search-skill-container input {
+    border: none;
+    outline: none;
+    width: 100%;
+
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-topics-container .search-result-container {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-topics-container .search-result-container .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 10px;
+    height: 30px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-skill-container .edit-skill-list-item-container {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-skill-container .edit-skill-list-item-container .edit-skill-list-item {
+    background: #F8F8F8;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-skill-container .edit-skill-list-item-container .edit-skill-list-item p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    color: black
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-topics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-topics-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #333333;
+}
+
+
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-topics-container .edit-search-topics-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 17px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    gap: 14px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-topics-container .edit-search-topics-container input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-topics-container .edit-topics-list-item-container {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-topics-container .edit-topics-list-item-container .edit-topics-list-item {
+    background: #F8F8F8;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-skill-topics-container .edit-topics-container .edit-topics-list-item-container .edit-topics-list-item p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    color: black
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-problem-solution-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-problem-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-problem-input-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-solution-answer-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-solution-answer-input-container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-solution-answer-input-container .header label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-solution-answer-input-container .header span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-answer-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-answer-input-container .edit-answer-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 17px 17px;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-answer-input-container .edit-answer-input .anwser-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #2F2E2E;
+    width: 90%;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-answer-input-container .edit-answer-input div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-answer-input-container .edit-answer-input div label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #2F2E2E;
+    cursor: pointer;
+}
+
+.Edit-question-parent-model-container .Edit-question-model-container .edit-answer-input-container button {
+    background: #384455;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 45px;
+    justify-content: center;
+    width: 107px;
+    border: none;
+    gap: 11px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.sun-editor .se-dialog-form:has(.se-math-preview) {
+    display: none;
+}

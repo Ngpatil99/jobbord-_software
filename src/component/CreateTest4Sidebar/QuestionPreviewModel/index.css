@@ -1,0 +1,337 @@
+.question-preview-model-parent .cancel-icon {
+    position: absolute;
+    left: 25%;
+    top: 3%;
+    cursor: pointer;
+}
+
+.question-preview-model-parent {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+   
+}
+
+.question-preview-model-parent .model-container {
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 0px;
+    padding: 30px 30px;
+    gap: 30px;
+    overflow: auto;
+
+}
+
+.question-preview-model-parent .model-container .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-preview-model-parent .model-container .header span {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.question-preview-model-parent .model-container .header span label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #333333
+}
+
+.question-preview-model-parent .model-container .header button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #384455;
+    border-radius: 2px;
+    border: none;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.question-preview-model-parent .model-container .header button label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF
+}
+
+.question-preview-model-parent .model-container .question-details-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 18px 18px;
+}
+
+.question-preview-model-parent .model-container .question-details-card .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.question-preview-model-parent .model-container .question-details-card .level-question-container {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.question-preview-model-parent .model-container .question-details-card .level-question-container span {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    background: #D6FFF6;
+    border-radius: 20px;
+
+    height: 40px;
+    padding-right: 10px;
+}
+
+.question-preview-model-parent .model-container .question-details-card .level-question-container span label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #2D2B2B;
+    text-transform: capitalize;
+}
+
+.question-preview-model-parent .model-container .question-details-card .level-question-container label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #313131;
+}
+
+.question-preview-model-parent .model-container .question-details-card .type-library-cotainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.question-preview-model-parent .model-container .question-details-card .type-library-cotainer .type-label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #384455
+}
+
+.question-preview-model-parent .model-container .question-details-card .type-library-cotainer .border {
+    width: 20px;
+    height: 0px;
+
+    border: 1px solid #DDDDDD;
+    transform: rotate(90deg);
+}
+
+.question-preview-model-parent .model-container .question-details-card .type-library-cotainer .library-label {
+    width: 100px;
+    height: 20px;
+    background: #384455;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-preview-model-parent .model-container .question-details-card .card-border {
+    margin-top: 17px;
+    border: 1px solid #F1F5F7;
+    width: 100%;
+}
+
+.question-preview-model-parent .model-container .question-details-card .model-bottom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.question-preview-model-parent .model-container .question-details-card .model-bottom-container span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.question-preview-model-parent .model-container .question-details-card .model-bottom-container span label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #827C7C;
+}
+
+.question-preview-model-parent .model-container .question-details-card .model-bottom-container .card-border1 {
+    border: 1px solid #F1F5F7;
+    transform: rotate(90deg);
+    width: 50px;
+    height: 0px;
+}
+
+.question-preview-model-parent .model-container .problem-solution-container {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.question-preview-model-parent .model-container .problem-solution-container .problem-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+
+}
+
+.question-preview-model-parent .model-container .problem-solution-container .problem-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.question-preview-model-parent .model-container .problem-solution-container .problem-container textarea {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    padding: 19px 15px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #2F2E2E;
+    outline: none;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.question-preview-model-parent .model-container .problem-solution-container .solution-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%
+}
+
+.question-preview-model-parent .model-container .problem-solution-container .solution-container .header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-preview-model-parent .model-container .problem-solution-container .solution-container .header span {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.question-preview-model-parent .model-container .problem-solution-container .solution-container .header label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.question-preview-model-parent .model-container .problem-solution-container .solution-container .header span label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #827C7C;
+}
+
+.question-preview-model-parent .model-container .problem-solution-container .solution-container .answer-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    height: 50px;
+    padding: 18px 18px;
+}
+
+.question-preview-model-parent .model-container .problem-solution-container .solution-container .answer-input span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #2F2E2E;
+
+}

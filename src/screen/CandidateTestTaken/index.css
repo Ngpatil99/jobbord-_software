@@ -1,0 +1,479 @@
+.test-taken {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.test-taken::-webkit-scrollbar {
+    display: none;
+}
+
+.test-taken .test-taken-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.test-taken .test-taken-container::-webkit-scrollbar {
+    display: none;
+}
+
+.test-taken .test-taken-container .test-taken-container-left {
+    display: flex;
+    width: 20vw;
+}
+
+.test-taken .test-taken-container .test-taken-container-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    overflow: auto;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    background: #FFFFFF;
+    padding: 30px;
+    gap: 30px;
+}
+
+.btnExport{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 120px;
+    gap: 5px;
+    height: 36px;
+    background: #FF6812;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btnExport button{
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;   
+    color: #fff;
+}
+.dropdownParent{
+    position: relative;
+}
+.dropDownMenu{
+    border: 1px solid #DDDDDD;
+    cursor: pointer;
+    font-size: 12px;
+    width: 120px;
+    list-style: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.dropDownMenu li{
+    padding: 2px 0px;
+}
+
+
+
+
+.dropDownMenu li:hover{
+    /* background: #D9D9D9; */
+    /* border-radius: 5px; */
+    color: #00C49A;
+}
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content table {
+    width: 100%;
+}
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .pagination {
+    align-items: center;
+    background: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    gap: 23px;
+    height: 10px;
+    justify-content: end;
+    padding: 0 13px;
+    /* width: 170px; */
+    float: right;
+}
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .pagination button {
+    align-items: center;
+    background: #374455;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    height: 30px;
+    justify-content: center;
+    line-height: 22px;
+    width: 30px;
+}
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .pagination span {
+    color: #333;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content table tr th {
+    background-color: #00C49A;
+    height: 36px;
+    text-align: left;
+    padding: 0px 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    border-right: 1px solid #DDDDDD;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content table tr td:nth-child(1) {
+    border-left: 1px solid #DDDDDD;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content table tr td:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2px;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content table tr td:nth-child(3) span{
+    color: #00C49A;
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    cursor: pointer;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content table tr td {
+    height: 42px;
+    text-align: left;
+    padding: 0px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #333333;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/* *************************header************************** */
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .test-taken-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* gap: 66px; */
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .test-taken-header .test-not-active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .test-taken-header .test-not-active span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #49484C;
+    width: 95%;
+}
+
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .test-taken-header .test-active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #FF6812;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .test-taken-header .test-active span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FF6812;
+    width: 95%;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left .check {
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid #827C7C;
+    border-radius: 2px;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #384455;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+.search-container-of-test-taken{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: #efefef;
+    width: 100%;
+    padding: 4px;
+}
+
+
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right-of-test-taken {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 65%;
+    position: relative;
+    justify-content: end;
+}
+
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right-of-test-taken .input-container {
+    height: 38px;
+    border-radius: 2px;
+    background: #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+    width: 22vw;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right-of-test-taken .input-container input {
+    width: 80%;
+    border: none;
+    background: none;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right-of-test-taken .candidate-status-dropdown {
+    font: 400 13px/22px 'Nunito Sans', sans-serif;
+    color: #333333;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    height: 38px;
+    padding: 0px 35px 0px 10px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    cursor: pointer;
+    appearance: none;
+    background-image: url('../../assets/icon/selectArrow.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    width: 8vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right-of-test-taken .filter span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right-of-test-taken .shortlist {
+    display: flex;
+    background: #999999;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 12px;
+    gap: 8px;
+
+    cursor: pointer;
+    width: 15vw;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right-of-test-taken .shortlist span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    /* overflow: scroll; */
+}
+
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .msg {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.test-taken .skeleton {
+    width: 30px;
+    height: 10px;
+}
+
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left .input-container {
+    width: 20vw;
+    height: 40px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #ECECEC;
+    border-radius: 2px;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left .input-container input {
+    outline: none;
+    border: none;
+    width: 80%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    /* or 146% */
+
+
+    color: #55585D;
+    margin-left: 15px;
+    background: #ECECEC;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left .input-container:focus-within {
+    border: 1px solid #808080;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right-of-test-taken .search-container-of-test-taken {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 270px;
+    z-index: 10;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    max-height: 150px;
+    overflow: scroll;
+    position: absolute;
+    top:3em;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right-of-test-taken .search-container-of-test-taken span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 5px;
+}
+
+.test-taken .test-taken-container .test-taken-container-right .test-taken-content .test-heading-right-of-test-taken .search-container-of-test-taken span:hover {
+    cursor: pointer;
+    padding: 5px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}

@@ -1,0 +1,190 @@
+.add-multiple-skillset-from-choose-from-library-main-container {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    overflow: auto;
+}
+
+
+.add-multiple-skillset-from-choose-from-library-main-container::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    max-height: 70vh;
+    padding: 25px 25px;
+    background-color: #FFFFFF;
+    gap: 10px;
+    /* overflow: scroll; */
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .header-of-add-skillset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .note {
+    display: flex;
+    justify-content: end;
+    color: #827c7c;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .header-of-add-skillset span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #000000;
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .border-of-choose-skill {
+    border: 1px solid #DDDDDD;
+    margin: 10px 0px;
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .add-skill-list-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    /* gap: 65px; */
+    height: 50px;
+    align-items: center;
+    /* overflow-y: scroll; */
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .add-skill-list-container span {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .add-skill-list-container span label {
+    margin-left: 15px;
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library  .question-and-skill-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+    width: 100%;
+    overflow-y: scroll;
+}
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library  .question-and-skill-container .suggestedSkills {
+    margin: 10px 0 10px 0;
+ 
+}
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library  .question-and-skill-container .suggestedSkills span{
+   font-family: 'Roboto';
+   /* font-weight:500 ; */
+   line-height: 10px;
+   font-size: 13px;
+   margin-left: 20px;
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library  .question-and-skill-container::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library  .question-and-skill-container .question-header{
+    word-break: break-all;
+    font-family: 'Roboto';
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .bottom-button-container {
+    display: flex;
+    width: 100%;
+    gap:30px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .bottom-button-container .add-skill-button-choose-from-library {
+    background: #00C49A;
+    border-radius: 2px;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+}
+
+.add-multiple-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .bottom-button-container .cancel-skill-button-choose-from-library{
+    background: #827C7C;
+    border-radius: 2px;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.hidden-radio {
+    display: none;
+  }
+  
+  .selected-skill {
+    display: flex;
+    background: #00C49A;
+    padding: 10px;
+    color: #fff;
+    justify-content: center;
+    border-radius: 20px; /* Change thi /* Change this to the highlight color you want */
+  }
+  .unselected-skill {
+    display: flex;
+    background: #dcdcde;
+    padding: 10px;
+   
+    justify-content: center;
+    border-radius: 20px; /* Change this to the highlight color you want */
+  }

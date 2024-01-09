@@ -1,0 +1,122 @@
+.publish-popup-container-model {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 2px;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+
+}
+
+.publish-popup-container-model .publish-test-box {
+    width: 600px;
+    /* height: 380px; */
+    padding: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+.publish-popup-container-model .publish-test-box .header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.publish-popup-container-model .publish-test-box .header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.publish-popup-container-model .publish-test-box .header .title span{
+    width: 100%;
+    text-align: left;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #333333;
+}
+
+.publish-popup-container-model .publish-test-box .header .title svg {
+    cursor: pointer;
+}
+
+
+.publish-popup-container-model .publish-test-box .header .header-border {
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+/* ********************************content styling*************************** */
+
+.publish-popup-container-model .publish-test-box p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #333333;
+}
+
+.publish-popup-container-model .publish-test-box span label{
+    margin-left: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #333333;
+}
+
+.publish-popup-container-model .publish-test-box span button{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: blue;
+    border:none;
+    width:auto;
+    background: none;
+    cursor: pointer;
+}
+
+.publish-popup-container-model .publish-test-box button{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: blue;
+    border:none;
+    width:auto;
+    background: none;
+    width: 50px;
+    cursor: pointer;
+}

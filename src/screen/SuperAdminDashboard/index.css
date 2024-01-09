@@ -1,0 +1,237 @@
+.super-admin-container {
+    display: flex;
+    flex-direction: column;
+    background: #F1F5F7;
+    height: calc(100vh - 70px);
+    padding: 20px 40px;
+    overflow: auto;
+    position: relative;
+}
+
+.super-admin-container .super-admin-cardContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.super-admin-container .super-admin-cardContainer .inviteCard {
+    width: 28vw;
+    height: 6.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: #FFFFFF;
+    position: relative;
+    padding-left: 27px;
+    margin-right: 20px;
+}
+
+.super-admin-container .super-admin-cardContainer .inviteCard span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: -0.01em;
+
+    /* Neutral/04 */
+
+    color: #6F767E;
+
+}
+
+.super-admin-container .super-admin-cardContainer .inviteCard span .loader {
+    margin-top: 10px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #00C49A;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    background: white;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.super-admin-container .super-admin-cardContainer .inviteCard span b {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height, or 192% */
+
+    letter-spacing: -0.03em;
+
+    /* Neutral/07 */
+
+    color: #1A1D1F;
+}
+
+
+.super-admin-container .super-admin-cardContainer .inviteCard meter::-webkit-meter-bar {
+    width: 17.6vw;
+    height: 6px;
+    background-color: #F1F5F7;
+    border-radius: 0px;
+}
+
+.super-admin-container .super-admin-cardContainer .inviteCard meter::-webkit-meter-optimum-value {
+    width: 17.6rem;
+    height: 6px;
+    background-color: #384455;
+    border-radius: 0px;
+}
+
+.super-admin-container .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 32px;
+}
+
+.super-admin-container .buttonContainer div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+
+    color: #010101;
+}
+
+.super-admin-container .buttonContainer div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.super-admin-container .buttonContainer div:nth-child(1) .dashboard-search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    height: 48px;
+
+}
+
+.super-admin-container .buttonContainer div:nth-child(1) .dashboard-search-container input {
+    width: 25vw;
+    height: 48px;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 0px 30px;
+    padding-right: 30px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+}
+
+.super-admin-container .buttonContainer div:nth-child(1) .dashboard-search-container input:focus-within {
+    border: 1px solid #808080;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.super-admin-container .buttonContainer div:nth-child(1) .dashboard-search-container svg {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+
+.super-admin-container .buttonContainer div:nth-child(2) .recruiter {
+    cursor: pointer;
+    padding-left: 12px;
+    width: 137.84px;
+    height: 45px;
+
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+
+.super-admin-container .buttonContainer div:nth-child(2) .recruiter select {
+    width: 90%;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 169% */
+
+
+    color: #333333;
+    border: none;
+}
+
+.super-admin-container .buttonContainer div:nth-child(2) .thisMonth {
+    cursor: pointer;
+
+    width: 137.84px;
+    height: 45px;
+
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.super-admin-container .buttonContainer div:nth-child(2) .thisMonth select {
+    width: 90%;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height, or 169% */
+
+
+    color: #333333;
+    border: none;
+}
+
+.super-admin-container .see-all-button {
+    width: 5%;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: -0.01em;
+
+    color: #010101;
+}
+
+.super-admin-container .see-all-button:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,253 @@
+.assessment-edit-question {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.assessment-edit-question .assessment-edit-question-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-left {
+    display: flex;
+    width: 20vw;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 0px 40px;
+    overflow: auto;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    background: #FFFFFF;
+    padding: 30px;
+    gap: 30px;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .col .header-bar {
+    width: 100%;
+    height: 1px;
+    background-color: #FEE9E1;
+    margin-top: 30px;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .header .title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .header .title .group {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .header .title svg {
+    cursor: pointer;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .header .title .group span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .header .title .group p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .header .button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .header .button-container .next-button {
+    background: #00c49a;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 211px;
+    height: 44px;
+    border: none;
+    gap: 11px;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .header .button-container .next-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .topic-title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .topic-title .topic-title-left {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .topic-title .topic-title-left span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .topic-title .topic-title-left p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19.06px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #827C7C;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .topic-title .topic-title-right {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 13px 23px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .topic-title .topic-title-right select {
+    border: none;
+    outline: none;
+    /* height: 40px; */
+    cursor: pointer;
+}
+
+
+/* ********************question card styling***************** */
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .question-cards {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .question-cards .question-card-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .question-cards .question-card-title .question-card-title-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .question-cards .question-card-title .question-card-title-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .question-cards .question-card-title .question-card-title-right span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #F23E3E;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .question-cards .question-card-title .question-card-title-left input {
+    width: 20px;
+    height: 20px;
+    accent-color: rgb(255, 104, 18);
+    border: 1px solid #827C7C;
+    border-radius: 2px;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .question-cards .question-card-title .question-card-title-left span {
+    margin-left: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.assessment-edit-question .assessment-edit-question-container .edit-question-right .edit-question-content .question-cards .question-card-title .question-card-title-left p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}

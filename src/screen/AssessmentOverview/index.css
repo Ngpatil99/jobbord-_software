@@ -1,0 +1,756 @@
+.AssessmentOverview {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.AssessmentOverview .assessmentOverview-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-left {
+    display: flex;
+    width: 20vw;
+    /* border: 1px solid black; */
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 75px 20px;
+    overflow: auto;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    background: #FFFFFF;
+    padding: 15px;
+    gap: 20px;
+}
+
+
+
+/* ******************************right content*********************** */
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-left {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-left .title {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    text-align: left;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-left .title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+   
+    color: #333333;
+    text-transform: capitalize;
+    display: flex;
+    gap:10px
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-left .title .status-button {
+    height: 25px;
+    background: #FEE9E1;
+    border-radius: 500px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10px;
+    gap: 4px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-left .title .status-button .circle {
+    width: 25px;
+    height: 25px;
+    background: #FF6812;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-left .title .status-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #2D2B2B;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-left .title .info {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-left .title .info p {
+    margin-right: 10px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-left .title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-right .test-preview-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 10px 6px 10px;
+    background-color: #384455;
+    gap: 5px;
+    color: #fff;
+    font-family: 'Roboto';
+    border-radius: 3px;
+    cursor:pointer;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-right .cancel-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 18px;
+    /* width: 120px; */
+    background: #999999;
+    border-radius: 2px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-right .cancel-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-right .save-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 18px;
+    /* width: 120px; */
+    background: #00C49A;
+    border-radius: 2px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-right .save-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-right .published-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 35.88px;
+    /* width: 120px; */
+    background: #FEE9E1;
+    border-radius: 500px;
+    box-sizing: border-box;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-right .published-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    /* line-height: 14px; */
+    /* identical to box height */
+
+    padding: 9px 22px 11px 9px;
+
+    color: #2D2B2B;
+    text-transform: capitalize;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-right .preview-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 44px;
+    width: 123px;
+    justify-content: center;
+
+    background: #384455;
+    border-radius: 2px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-header .header-right .preview-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+/* *****************************banner styling************************* */
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 122px;
+
+    background: #384455;
+    border-radius: 2px;
+    padding: 23px 28px 21px 27px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-banner .banner-title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-banner .banner-title span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+
+    color: #FFFFFF;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-banner .banner-bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-banner .banner-bottom .banner-details {
+    display: flex;
+    margin-top: 8px;
+    flex-direction: column;
+    gap: 2px;
+    width: 70%;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-banner .banner-bottom .banner-details span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+
+    color: #B4BAC3;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-banner .banner-bottom .banner-info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 25px;
+    width: 30%;
+    justify-content: right;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-banner .banner-bottom .banner-info button {
+    height: 25px;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.43);
+    border-radius: 30px;
+    padding: 3px 14px 3px 14px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+/* ***************************************test description******************************** */
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .bottom-button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    background-color: #f8f8f8;
+    border: 1px solid #E0E0E0;
+    padding: 2px 10px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .bottom-button-container button:nth-child(1){
+    display: flex;
+    height: 30px;
+    padding: 8px 20px;
+    gap: 10px;
+    border-radius: 2px;
+    background: #00C49A;
+    border: none;
+    cursor: pointer;
+
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .bottom-button-container button:nth-child(2){
+    display: flex;
+    gap: 10px;
+    border-radius: 2px;
+    background: #827C7C;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    padding: 8px 20px;
+
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .assessment-test-description {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 48.5%;
+    height: 235px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .assessment-test-description .description-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .assessment-test-description .description-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .assessment-test-description .editor p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #5A5858;
+}
+
+/* **********************************link and settings**************************** */
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .assessment-link-settings {
+    display: flex;
+    flex-direction: column;
+    width: 48.5%;
+    gap: 20px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .assessment-link-settings .assessment-link {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .assessment-link-settings .assessment-link .link {
+    width: calc(100% - 70px);
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    height: 35px;
+    padding: 6px 5px;
+    box-sizing: border-box;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .assessment-link-settings .assessment-link .link input {
+    width: 100%;
+    border: none;
+    outline: none;
+    /* height: 48px; */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #636968;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .assessment-link-settings .assessment-link .link-btn {
+    height: 35px;
+    width: 50px;
+
+    background: #00C49A;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .proctoring-setting {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 5px 20px;
+
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .proctoring-setting .settings-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .proctoring-setting .settings-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .proctoring-setting .settings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .proctoring-setting .settings-list .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-body .proctoring-setting .settings-list span {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #5A5858;
+}
+
+/* *******************************test instructuions******************************** */
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .test-instruction-and-candidate-settings-container{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .test-instruction-and-candidate-settings-container .test-instruction {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+
+    padding: 15px 15px;
+    height: 120px;
+    overflow: auto;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .test-instruction-and-candidate-settings-container .test-instruction .test-instructions-title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .test-instruction-and-candidate-settings-container .test-instruction .test-instructions-title span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+
+    color: #302F2F;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .test-instruction-and-candidate-settings-container .test-instruction .instructions-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .test-instruction-and-candidate-settings-container .test-instruction .instructions-content span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 138% */
+
+
+    color: #5A5858;
+
+}
+
+/* ********************************assessment admin**************************** */
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #00C49A;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table {
+    width: 100%;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin {
+    width: 100%;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin th {
+    background: #F1F5F7;
+    border-radius: 2px 2px 0px 0px;
+    height: 49px;
+    text-align: left;
+    padding-left: 36px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    border: 1px solid #DDDDDD;
+
+    color: #333333;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin th:nth-child(1) {
+    border-right: none;
+    width: 20%;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin th:nth-child(2) {
+    border-left: none;
+    border-right: none;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin th:nth-child(3) {
+    width: 13%;
+    border-left: none;
+    border-right: none;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin th:nth-child(4) {
+    width: 10%;
+    padding-right: 42px;
+    border-left: none;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin td {
+    border-bottom: 1px solid #DDDDDD;
+    height: 50px;
+
+    padding-left: 36px;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin td:nth-child(1) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #333333;
+    border-left: 1px solid #DDDDDD;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin td:nth-child(2) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* text-transform: capitalize; */
+
+    color: #696974;
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin td:nth-child(3) {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-left: 25px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #696974;
+
+}
+
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin td:nth-child(4) {
+    width: 10%;
+    padding-right: 37px;
+    padding-left: 49px;
+    border-right: 1px solid #DDDDDD;
+}
+
+/* .AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin td svg:hover {
+    stroke: #FF6812;
+} */
+
+/* 
+.AssessmentOverview .assessmentOverview-container .assessmentOverview-container-content .assessment-admin .admin-table .admin td:nth-child(4) .dlt:hover {
+    stroke: #FF6812;
+} */

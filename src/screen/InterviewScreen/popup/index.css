@@ -1,0 +1,220 @@
+.not-done-container-model {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background: rgba(10, 9, 9, 0.56);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.not-done-container-model .test-type-box {
+    width: 590px;
+    padding: 26px 30px 30px 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 10px 10px 50px rgba(100, 96, 96, 0.08);
+    border-radius: 2px;
+    min-height: 30%;
+    max-height: 50%;
+    overflow-y: scroll;
+}
+
+.not-done-container-model .test-type-box .header {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.not-done-container-model .test-type-box .header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.not-done-container-model .test-type-box .header .title span {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.not-done-container-model .test-type-box .header .header-border {
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.not-done-container-model .test-type-box .test-type {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.not-done-container-model .test-type-box .details {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.not-done-container-model .test-type-box .details .name {
+    display: flex;
+    flex-direction: column;
+    width: 47.5%;
+}
+
+.not-done-container-model .test-type-box .details .name span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+
+.not-done-container-model .test-type-box .details .name .name-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+    padding-left: 20px;
+}
+
+.not-done-container-model .test-type-box .details .name .name-box span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+
+
+.not-done-container-model .test-type-box .details .reason {
+    display: flex;
+    flex-direction: column;
+    width: 47.5%;
+}
+
+.not-done-container-model .test-type-box .details .reason .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+}
+
+.not-done-container-model .test-type-box .details .reason .select-box select {
+    outline: none;
+    width: 95%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 16px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+    text-transform: capitalize;
+}
+
+
+
+.not-done-container-model .test-type-box .details .reason .select-box .vector-svg {
+    position: absolute;
+    top: 21px;
+    right: 17px;
+}
+
+.not-done-container-model .test-type-box .details .reason span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+.not-done-container-model .test-type-box .details .reason span label {
+    vertical-align: top;
+    display: inline-block;
+    color: red;
+}
+
+.not-done-container-model .test-type-box .details .reason .error-header {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    /* identical to box height, or 138% */
+
+
+    color: red;
+    margin-top: 5px;
+}
+
+
+
+
+.not-done-container-model .test-type-box .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.not-done-container-model .test-type-box .button .next-btn {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FF6812;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+.not-done-container-model .test-type-box .button .next-btn button {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    background: #FF6812;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}

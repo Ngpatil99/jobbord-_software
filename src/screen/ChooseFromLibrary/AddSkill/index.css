@@ -1,0 +1,138 @@
+.add-skillset-from-choose-from-library-main-container {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: auto;
+    padding: 25px 25px;
+    background-color: #FFFFFF;
+    /* gap: 10px */
+}
+
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .header-of-add-skillset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .header-of-add-skillset span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #000000;
+}
+
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .border-of-choose-skill {
+    border: 1px solid #DDDDDD;
+    margin: 10px 0px;
+}
+
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .add-skill-list-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    /* gap: 65px; */
+    height: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .add-skill-list-container span {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .add-skill-list-container span label {
+    margin-left: 15px;
+}
+
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .bottom-button-container {
+    display: flex;
+    width: 100%;
+    gap:30px;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .bottom-button-container .add-skill-button-choose-from-library {
+    background: #00C49A;
+    border-radius: 2px;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+}
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .note {
+    color: #827c7c;
+    display: flex;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: end;
+    line-height: 22px;
+    margin-top: 5px;
+
+}
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .suggestedSkills {
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 10px;
+    margin-left: 20px;
+
+}
+
+.add-skillset-from-choose-from-library-main-container .add-skillset-from-choose-from-library .bottom-button-container .cancel-skill-button-choose-from-library{
+    background: #827C7C;
+    border-radius: 2px;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}

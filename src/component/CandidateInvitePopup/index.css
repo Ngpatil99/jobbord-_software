@@ -1,0 +1,227 @@
+.candidate-invite-container {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background: rgba(10, 9, 9, 0.56);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+
+.candidate-invite-container .invite-box {
+    width: 590px;
+    height: 405px;
+    padding: 26px 30px 30px 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 10px 10px 50px rgba(100, 96, 96, 0.08);
+    border-radius: 2px;
+}
+
+.candidate-invite-container .invite-box .header {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.candidate-invite-container .invite-box .header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.candidate-invite-container .invite-box .header .title span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #000000;
+
+}
+
+.candidate-invite-container .invite-box .header .header-border {
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.candidate-invite-container .invite-box .name-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.candidate-invite-container .invite-box .name-field span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.candidate-invite-container .invite-box .input-field {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0px;
+    padding-left: 20px;
+    gap: 15px;
+    padding-right: 15px;
+}
+
+.candidate-invite-container .invite-box .input-field input {
+    height: 47px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.candidate-invite-container .invite-box .email-validity {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.candidate-invite-container .invite-box .email-validity .email-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+}
+
+.candidate-invite-container .invite-box .email-validity .email-field span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.candidate-invite-container .invite-box .email-validity .validity-field {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    gap: 10px;
+}
+
+.candidate-invite-container .invite-box .email-validity .validity-field span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.candidate-invite-container .invite-box .email-validity .validity-field .select-input {
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    height: 50px;
+}
+
+.candidate-invite-container .invite-box .email-validity .validity-field .select-input select {
+    height: 48px;
+    padding-left: 18px;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+.candidate-invite-container .invite-box .button-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.candidate-invite-container .invite-box .button-container span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+
+    padding-left: 40px;
+    padding-right: 25px;
+}
+
+.candidate-invite-container .invite-box .button-container .send-invite {
+    background: #FF6812;
+    border-radius: 2px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: 240px;
+    justify-content: center;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.candidate-invite-container .invite-box .button-container .candidate-invite-bulk-invite {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: 44px;
+    width: 38%;
+    border: 1px solid #00C49A;
+    border-radius: 2px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #00C49A;
+    outline: none;
+    cursor: pointer;
+}

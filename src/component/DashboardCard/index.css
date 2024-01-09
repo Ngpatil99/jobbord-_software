@@ -1,0 +1,77 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    width: 22.5vw;
+    height: 6.75rem;
+}
+
+.card div:nth-child(1) {
+    padding-top: 15px;
+    width: 70%;
+    height: 100%;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card div:nth-child(1) span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: -0.01em;
+
+    color: #6F767E;
+    text-align: left;
+}
+
+.card div:nth-child(1) span b {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 48px;
+    /* identical to box height, or 192% */
+
+    letter-spacing: -0.03em;
+    color: #0B0B0B;
+}
+
+.card div:nth-child(1) .loader {
+    margin-top: 10px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #00C49A;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    background: white;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.card div:nth-child(2) {
+    width: 30%;
+    height: 100%;
+    background: #00C49A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,146 @@
+.delete-invite-container {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.delete-invite-container .delete-invite-box {
+    width: 410px;
+    /* height: 380px; */
+    padding: 26px 30px 34px 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    box-shadow: 10px 10px 50px rgba(100, 96, 96, 0.08);
+    gap: 10px;
+}
+
+.delete-invite-container .delete-invite-box .header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.delete-invite-container .delete-invite-box .header .title {
+    display: flex;
+    flex-direction: row;
+}
+
+.delete-invite-container .delete-invite-box .header .title span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #000000;
+
+}
+
+.delete-invite-container .delete-invite-box .header .header-border {
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.delete-invite-container .delete-invite-box .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.delete-invite-container .delete-invite-box .details span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+
+/* ********************************button styling************************ */
+
+
+.delete-invite-container .delete-invite-box .button {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.delete-invite-container .delete-invite-box .button .cancel-btn {
+    width: 86px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    background: #999999;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.delete-invite-container .delete-invite-box .button .cancel-btn button {
+    background: #999999;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+}
+
+.delete-invite-container .delete-invite-box .button .next-btn {
+    width: 91px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    background: #FF5757;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.delete-invite-container .delete-invite-box .button .next-btn button {
+    background: #FF5757;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}

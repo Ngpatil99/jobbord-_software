@@ -1,0 +1,63 @@
+.notification-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 25px 25px;
+    cursor: pointer;
+}
+
+.notification-card-container .header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.notification-card-container .header label{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+color: #595959;
+
+}
+
+.notification-card-container  label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+
+
+    color: #222222;
+}
+
+.notification-card-container  p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    color: #686868;
+
+}
+
+.notification-card-container img{
+    margin-top: 20px;
+    width: 100%;
+    height: 142px;
+    object-fit: cover;
+}

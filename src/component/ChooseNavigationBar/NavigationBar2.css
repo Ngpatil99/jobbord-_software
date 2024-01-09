@@ -1,0 +1,111 @@
+.navigation-bar2 {
+    width: 100vw;
+    height: 70px;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #DDDDDD;
+    background: #FFFFFF;
+}
+
+.navigation-bar2 .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation-bar2 .row .row-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navigation-bar2 button {
+    height: 38px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    /* identical to box height, or 122% */
+
+
+    color: #333333;
+    cursor: pointer;
+}
+
+.navigation-bar2 button svg {
+    margin-right: 10px;
+}
+
+/* Left Side */
+
+.navigation-bar2 .row .row-right .save-as-draft-button {
+    width: 141px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #D9D9D9;
+    border-radius: 2px;
+    margin-right: 30px;
+}
+
+.navigation-bar2 .row .row-right .save-as-draft-button span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #333333;
+}
+
+.navigation-bar2 .row .row-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation-bar2 .row .row-right img {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0px 25px;
+}
+
+.navigation-bar2 .notification {
+    position: relative;
+    cursor: pointer;
+}
+
+.navigation-bar2 .notification .notification-alert {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #EA3A3D;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.navigation-bar2 .left-side svg {
+    cursor: pointer;
+}

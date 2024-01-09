@@ -1,0 +1,262 @@
+.reset-password-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+    overflow: hidden;
+  }
+  
+  .reset-password-container .left {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 122px;
+  
+  }
+  
+  .reset-password-container .left img {
+    width: 50px;
+    height: 61px;
+    object-fit: contain;
+  }
+  
+  .reset-password-container .left span {
+    margin-top: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    /* or 31px */
+  
+    letter-spacing: 0.02em;
+  
+    color: #333333;
+  }
+  
+  
+  .reset-password-container .left .password-container {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0px 20px;
+  }
+  
+  .reset-password-container .left .password-container label {
+    padding: 5px;
+    position: absolute;
+    left: 2%;
+    top: -25%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+  
+  
+    color: #636968;
+    background: #FFFFFF;
+    border-radius: 11px;
+    z-index: 10;
+  
+  }
+  
+  .reset-password-container .left .password-container:focus-within label {
+    color: black;
+  }
+  
+  .reset-password-container .left .password-container input {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+  
+    color: #44444F;
+  }
+  
+  .reset-password-container .left .password-container:focus-within {
+    border: 1px solid black;
+  }
+  
+  .reset-password-container .left .password-container>input> {
+    pointer-events: auto;
+    display: inline-block;
+  }
+  
+  .reset-password-container .left .password-container svg {
+    cursor: pointer;
+  }
+  
+  .reset-password-container .left p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* identical to box height, or 21px */
+  
+    letter-spacing: 0.02em;
+  
+    color: #7C7676;
+  }
+  
+  .reset-password-container .left .forgot-password-remeber-button-container {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .reset-password-container .left .forgot-password-remeber-button-container .remeber-me {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .reset-password-container .left .forgot-password-remeber-button-container .remeber-me .checbox-container {
+    width: 16px;
+    height: 16px;
+    background: #3DD598;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .reset-password-container .left .forgot-password-remeber-button-container .remeber-me p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+  
+    color: #696974;
+  }
+  
+  .reset-password-container .left .forgot-password-remeber-button-container label {
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1px;
+  
+    color: #00C49A;
+  }
+  
+  .reset-password-container .left button {
+    cursor: pointer;
+    margin-top: 30px;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FF6812;
+    border-radius: 2px;
+    border: none;
+  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #FFFFFF;
+  }
+  
+  .reset-password-container .left button .loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #00C49A;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    background: FF6812;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .reset-password-container .passwordStrength {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .reset-password-container .passwordStrength label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+  
+  
+    color: #AAAAAA;
+  }
+  
+  .reset-password-container .passwordStrength span{
+    margin-top: 0px;
+    width: 50%;
+    height: 5px;
+    border-radius: 50px;
+  }
+  
+  .reset-password-container .passwordStrength .strong{
+    width: 50%;
+    height: 8px;
+    background: #00C49A;
+    border-radius: 50px;
+  
+  }
+  
+  .reset-password-container .passwordStrength .medium{
+    width: 50%;
+    height: 8px;
+    background: yellow;
+    border-radius: 50px;
+  
+  }
+  
+  .reset-password-container .passwordStrength .poor{
+    width: 50%;
+    height: 8px;
+    background: #FF6812;
+    border-radius: 50px;
+  
+  }
+  
+  
+  

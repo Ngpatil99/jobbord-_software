@@ -1,0 +1,254 @@
+.assessment-question-card {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.assessment-question-card:hover {
+    box-shadow: 0px 15px 20px -3px rgba(0, 0, 0, 0.05);
+    border: 0.7px solid #FF6812;
+}
+
+.assessment-question-card .library-header-container {
+    gap: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.assessment-question-card .library-header-container label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    /* identical to box height */
+
+
+    color: #313131;
+    align-self: center;
+
+}
+
+.assessment-question-card .library-header-container .status-button {
+
+    height: 25px;
+    background: #D6FFF6;
+    border-radius: 500px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10px;
+    gap: 4px;
+}
+
+.assessment-question-card .library-header-container .status-button .circle {
+    width: 25px;
+    height: 25px;
+    background: #00C49A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assessment-question-card .library-header-container .status-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #2D2B2B;
+    text-transform: capitalize;
+}
+
+.assessment-question-card p {
+    margin-top: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+
+}
+
+.assessment-question-card .border {
+    margin-top: 5px;
+    border: 1px solid #F1F5F7;
+}
+
+.assessment-question-card .library-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    height: 40px;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side {
+    gap: 22px;
+    display: flex;
+    flex-direction: row;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span {
+    gap: 5.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span:nth-child(3) p {
+    color: #827C7C;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span:nth-child(4) div {
+    display: flex;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span:nth-child(4) p {
+    color: #827C7C;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #F23E3E
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span:nth-child(1):hover svg path {
+    stroke: black;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span:nth-child(1):hover p {
+    color: black;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span:nth-child(3):hover svg path {
+    fill: black;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span:nth-child(3):hover p {
+    color: black;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span:nth-child(4):hover svg path {
+    stroke: black;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side span:nth-child(4):hover p {
+    color: black;
+}
+
+.assessment-question-card .library-bottom-container .library-left-side .card-border {
+    border: 1px solid #F1F5F7;
+    transform: rotate(180deg);
+}
+
+.assessment-question-card .library-bottom-container .library-right-side {
+    gap: 20px;
+    display: flex;
+}
+
+.assessment-question-card .library-bottom-container .library-right-side span {
+    margin-top: 14px;
+    margin-bottom: 16px;
+    gap: 5.5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.assessment-question-card .library-bottom-container .library-right-side span:nth-child(1) p {
+    color: #827C7C;
+}
+
+.assessment-question-card .library-bottom-container .library-right-side span:nth-child(2) p {
+    color: #827C7C;
+}
+
+.assessment-question-card .library-bottom-container .library-right-side span p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #F23E3E
+}
+
+.assessment-question-card .library-bottom-container .library-right-side span:nth-child(1):hover svg path {
+    stroke: black;
+}
+
+.assessment-question-card .library-bottom-container .library-right-side span:nth-child(1):hover p {
+    color: black;
+}
+
+.assessment-question-card .library-bottom-container .library-right-side span:nth-child(2):hover svg path {
+    stroke: red;
+}
+
+.assessment-question-card .library-bottom-container .library-right-side span:nth-child(2):hover p {
+    color: red;
+}
+
+.assessment-question-card .library-bottom-container .library-right-side .card-border {
+    border: 1px solid #F1F5F7;
+    transform: rotate(180deg);
+}
+
+.assessment-question-card .library-bottom-container .library-right-side .library-name-container {
+    padding: 0px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    background-color: #384455;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    align-self: center;
+}
+
+.assessment-question-card .library-bottom-container .library-right-side label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #384455;
+    margin-top: 14px;
+    margin-bottom: 16px;
+    text-align: center;
+    width: 74px;
+    align-self: center;
+
+}

@@ -1,0 +1,410 @@
+.choose-library-card-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    border: 0.7px solid transparent;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.choose-library-card-container:hover {
+    box-shadow: 0px 15px 20px -3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #00C49A;
+}
+
+.choose-library-card-container:hover .choose-library-header-container .added {
+    visibility: hidden;
+}
+
+.choose-library-card-container:hover .choose-library-header-container .remove-from-test {
+    visibility: visible;
+}
+
+.choose-library-card-container:hover .choose-library-header-container .add-to-test {
+    visibility: visible;
+}
+
+.choose-library-card-container:hover .choose-library-header-container .check rect {
+    stroke: #00C49A;
+}
+
+.choose-library-card-container .choose-library-header-container {
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.choose-library-card-container .choose-library-header-container .add-to-test {
+    visibility: hidden;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #00C49A;
+}
+
+.choose-library-card-container .choose-library-header-container .added {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 8px;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #00C49A;
+}
+
+.choose-library-card-container .choose-library-header-container .remove-from-test {
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 3px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #F23E3E;
+}
+
+.choose-library-card-container .choose-library-header-container .check rect {
+    stroke: #DDDDDD;
+}
+
+.choose-library-card-container .choose-library-header-container .choose-header {
+    gap: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.choose-library-card-container .choose-library-header-container .choose-header label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    /* identical to box height */
+
+
+    color: #313131;
+    align-self: center;
+
+}
+
+.choose-library-card-container .choose-library-header-container .choose-header .status-button {
+
+    height: 25px;
+    background: #D6FFF6;
+    border-radius: 500px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10px;
+    gap: 4px;
+}
+
+.choose-library-card-container .choose-library-header-container .choose-header .status-button .circle {
+    width: 25px;
+    height: 25px;
+    background: #00C49A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-library-card-container .choose-library-header-container .choose-header .status-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #2D2B2B;
+    text-transform: capitalize;
+}
+
+.choose-library-card-container p {
+    margin-top: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+
+}
+
+.choose-library-card-container .border {
+    margin-top: 13px;
+    border: 1px solid #F1F5F7;
+}
+
+.choose-library-card-container .choose-library-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    height: 44px;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side {
+    gap: 22px;
+    display: flex;
+    flex-direction: row;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side span {
+    margin-top: 14px;
+    margin-bottom: 16px;
+    gap: 5.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side span:nth-child(3) p {
+    color: #827C7C;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side span:nth-child(4) p {
+    color: #827C7C;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side span p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #F23E3E
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side span:nth-child(1):hover svg path {
+    stroke: black;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side span:nth-child(1):hover p {
+    color: black;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side span:nth-child(3):hover svg path {
+    fill: black;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side span:nth-child(3):hover p {
+    color: black;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side span:nth-child(4):hover svg path {
+    stroke: black;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side span:nth-child(4):hover p {
+    color: black;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-left-side .card-border {
+    border: 1px solid #F1F5F7;
+    transform: rotate(180deg);
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side {
+    gap: 20px;
+    display: flex;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side span {
+    margin-top: 14px;
+    margin-bottom: 16px;
+    gap: 5.5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side span:nth-child(1) p {
+    color: #827C7C;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side span:nth-child(2) p {
+    color: #827C7C;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side span p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #F23E3E
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side span:nth-child(1):hover svg path {
+    stroke: black;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side span:nth-child(1):hover p {
+    color: black;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side span:nth-child(2):hover svg path {
+    stroke: red;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side span:nth-child(2):hover p {
+    color: red;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side .card-border {
+    border: 1px solid #F1F5F7;
+    transform: rotate(180deg);
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side .library-name-container {
+    margin-top: 14px;
+    padding: 0px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    background-color: #384455;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.choose-library-card-container .choose-library-bottom-container .library-right-side label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #384455;
+    margin-top: 14px;
+    margin-bottom: 16px;
+    text-align: center;
+    min-width: 21px;
+    align-self: center;
+
+}
+
+.choose-library-card-container .choose-library-bottom-container .draft-library-left-side {
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.choose-library-card-container .choose-library-bottom-container .draft-library-left-side label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #384455;
+    align-self: center;
+    width: 74px;
+    text-align: center;
+}
+
+.choose-library-card-container .choose-library-bottom-container .draft-library-left-side span {
+    gap: 5.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+
+.choose-library-card-container .choose-library-bottom-container .draft-library-left-side span p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #F23E3E
+}
+
+.choose-library-card-container .choose-library-bottom-container .draft-library-left-side .card-border {
+    border: 1px solid #F1F5F7;
+    transform: rotate(180deg);
+}
+
+.choose-library-card-container .choose-library-bottom-container .draft-library-right-side {
+    gap: 20px;
+    display: flex;
+}
+
+.choose-library-card-container .choose-library-bottom-container .draft-library-right-side button {
+    margin-top: 14px;
+    margin-bottom: 16px;
+
+    cursor: pointer;
+    height: 30px;
+    padding: 0px 18px;
+    border: 0.5px solid #384455;
+    border-radius: 2px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+
+.choose-library-card-container .choose-library-bottom-container .draft-library-right-side button svg {
+    margin-right: 10px;
+}
+
+.choose-library-card-container .choose-library-bottom-container .draft-library-right-side button span {
+    font-size: 12px;
+    color: #384455;
+    font-family: 'Roboto', sans-serif;
+}

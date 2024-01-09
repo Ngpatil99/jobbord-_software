@@ -1,0 +1,172 @@
+.mcq-bulk-preview-container {
+    display: flex;
+    flex-direction: row;
+    background: #F1F5F7;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.mcq-bulk-preview-container .question-card-container {
+    width: 80vw;
+    background: #F1F5F7;
+    padding: 0px 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.mcq-bulk-preview-container .question-card-container .header-container {
+    display: flex;
+    gap: 98px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.mcq-bulk-preview-container .question-card-container .header-container span {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.mcq-bulk-preview-container .question-card-container .header-container span .libray-name-header {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+
+    color: #252424;
+}
+
+.mcq-bulk-preview-container .question-card-container .header-container span .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 45px;
+    width: 24vw;
+}
+
+.mcq-bulk-preview-container .question-card-container .header-container span .search-container input {
+    width: 24vw;
+    height: 45px;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 0px 30px;
+    padding-left: 50px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    border: none
+}
+.mcq-bulk-preview-container .question-card-container .header-container span .search-container input:focus-within{
+    border:1px solid #808080;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.mcq-bulk-preview-container .question-card-container .header-container span .search-container .search-icon {
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+}
+
+.mcq-bulk-preview-container .question-card-container .header-container span .search-container .cross-icon{
+    position: absolute;
+    right: 15px;
+}
+
+.mcq-bulk-preview-container .question-card-container .button-container {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.mcq-bulk-preview-container .question-card-container .button-container button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #FF6812;
+    border-radius: 2px;
+    height: 45px;
+    width: 144px;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mcq-bulk-preview-container .question-card-container .button-container button p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.mcq-bulk-preview-container .question-card-container .button-container button:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #00C49A;
+    border-radius: 2px;
+    width: 175px;
+    height: 45px;
+    padding: 12px 23px;
+    border: none;
+}
+
+.mcq-bulk-preview-container .question-card-container .button-container button:nth-child(2) p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+}
+
+
+.mcq-bulk-preview-container .question-card-container .pagination-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.mcq-bulk-preview-container .question-card-container .pagination-container button {
+    width: 32px;
+    height: 32px;
+    background: #384455;
+    border: 1px solid #384455;
+    border-radius: 2px;
+
+    /*font*/
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #000000;
+}
+
+.mcq-bulk-preview-container .question-card-container .library1-container {
+    height: 65vh;
+    overflow-y:scroll;
+}
+

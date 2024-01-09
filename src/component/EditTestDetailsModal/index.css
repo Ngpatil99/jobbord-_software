@@ -1,0 +1,377 @@
+.edit-test-details-modal-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    z-index: 10;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    border-radius: 2px;
+    background: #FFF;
+    box-shadow: 10px 10px 50px 0px rgba(100, 96, 96, 0.08);
+    width: 55vw;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .heading-of-edit-test-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .heading-of-edit-test-details span {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .border-of-edit-test-details {
+    height: 1px;
+    background: #DDDDDD;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-heading-and-time-container {
+    gap: 30px;
+    display: flex;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-heading-and-time-container .test-heading-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-heading-and-time-container .test-heading-container span {
+    color: #384455;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-heading-and-time-container .test-heading-container input {
+    border-radius: 2px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    height: 35px;
+    width: 32vw;
+    padding: 16px 16px;
+    /* font */
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-heading-and-time-container .test-time-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-heading-and-time-container .test-time-container span {
+    color: #384455;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-heading-and-time-container .test-time-container .time-input-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    padding: 0px 10px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-heading-and-time-container .test-time-container .time-input-box input {
+    width: 10vw;
+    height: 35px;
+    border: none;
+
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-heading-and-time-container .test-time-container .time-input-box span {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container {
+    gap: 30px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container .start-and-end-date-container {
+    gap: 15px;
+    display: flex;
+    width: 32vw;
+}
+
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container .start-and-end-date-container .start-date-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container .start-and-end-date-container .start-date-container span {
+    color: #384455;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container .start-and-end-date-container .start-date-container p{
+    color: red;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: normal;
+
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container .start-and-end-date-container .start-date-container .box {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #DDDDDD;
+    height: 35px;
+    width: 15.5vw;
+    padding: 12px 0px 12px 20px;
+
+
+    align-items: center;
+    gap: 10px
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container .start-date-container .box .start-date-picker {
+    border: none;
+    height: 30px;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container .test-and-cutoff-container {
+    gap: 15px;
+    display: flex;
+    width: 20vw;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container .test-and-cutoff-container .test-score-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container .test-and-cutoff-container .test-score-container span {
+     color: #384455;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .start-date-and-end-date-and-score-and-cutoff-score-container .test-and-cutoff-container .test-score-container input {
+    border-radius: 2px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    padding: 17px 0px 17px 18px;
+    width: 100%;
+    height: 35px;
+
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    margin-top: 5px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container .test-type{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+ 
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container .test-type span {
+     color: #384455;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container .test-type .button-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container .test-type .button-container .active{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 25px;
+    align-items: center;
+    width: 10vw;
+    height: 35px;
+    border: 1px solid #00C49A;
+    border-radius: 2px;
+    padding: 13px 20px 13px 20px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container .test-type .button-container .active span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #252424;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container .test-type .button-container .not-active{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 25px;
+    align-items: center;
+    width: 10vw;
+    height: 35px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 13px 20px 13px 20px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container .test-type .button-container .not-active span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #252424;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container .test-type .invite-only-container{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:20px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container .test-type .invite-only-container .yes-checkbox-container{
+    gap:5px;
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .test-type-main-container .test-type .invite-only-container .no-checkbox-container{
+    gap:5px;
+    display: flex;
+    height: 35px;
+    align-items: center;
+
+}
+
+
+
+.edit-test-details-modal-container .edit-test-details-modal .bottom-save-cancel-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .bottom-save-cancel-container .save-cancel-container {
+    display: flex;
+    gap: 15px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .bottom-save-cancel-container .save-cancel-container button:nth-child(1) {
+    display: flex;
+    gap: 10px;
+    border-radius: 2px;
+    background: #827C7C;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    padding: 8px 20px;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .bottom-save-cancel-container .save-cancel-container button:nth-child(1) span {
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .bottom-save-cancel-container .save-cancel-container button:nth-child(2) {
+    display: flex;
+    height: 35px;
+    padding: 8px 20px;
+    gap: 10px;
+    border-radius: 2px;
+    background: #00C49A;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-test-details-modal-container .edit-test-details-modal .bottom-save-cancel-container .save-cancel-container button:nth-child(2) span {
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

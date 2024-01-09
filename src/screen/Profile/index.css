@@ -1,0 +1,339 @@
+.userprofile-container {
+    width: 100vw;
+    height: 100vh;
+    background: #F1F5F7;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+}
+
+.userprofile-container .left-right-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.userprofile-container .left-right-container .left-side-container {
+    width: 20vw;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: #384455;
+    padding: 0px 35px;
+    padding-top: 40px;
+
+}
+
+.userprofile-container .left-right-container .left-side-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+}
+
+.userprofile-container .left-right-container .left-side-container .border {
+    margin-top: 11px;
+    width: 100%;
+    height: 1px;
+    background-color: #DDDDDD;
+    margin-bottom: 29px;
+
+}
+
+.userprofile-container .left-right-container .left-side-container .menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 14px;
+    gap: 13px;
+    height: 44px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.userprofile-container .left-right-container .left-side-container .menu-item span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+
+}
+
+.userprofile-container .left-right-container .left-side-container .reach-us-container {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.userprofile-container .left-right-container .left-side-container .reach-us-container label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+
+    color: #050505;
+}
+
+.userprofile-container .left-right-container .left-side-container .reach-us-container p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    /* or 150% */
+
+
+    color: #827E7B;
+}
+
+.userprofile-container .left-right-container .left-side-container .reach-us-container button {
+    cursor: pointer;
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90.47px;
+    height: 37.47px;
+    background: #FF6812;
+    border-radius: 2px;
+    border: none;
+    gap: 8px
+}
+
+.userprofile-container .left-right-container .left-side-container .reach-us-container button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+
+}
+
+.userprofile-container .left-right-container .right-side-container {
+    width: 80vw;
+    height: 80vh;
+    margin: 40px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-top: #00C49A solid 5px;
+    padding: 35px;
+
+    overflow: scroll;
+}
+
+.userprofile-container .left-right-container .right-side-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.userprofile-container .left-right-container .right-side-container .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.userprofile-container .left-right-container .right-side-container .header-container .left-side-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px
+}
+
+.userprofile-container .left-right-container .right-side-container .header-container .left-side-header span label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+
+    color: #333333;
+
+}
+
+.userprofile-container .left-right-container .right-side-container .header-container .left-side-header span p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+
+}
+
+.userprofile-container .left-right-container .right-side-container button {
+    width: 110px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    background-color: #00C49A;
+    border-radius: 2px;
+}
+
+.userprofile-container .left-right-container .right-side-container button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.userprofile-container .left-right-container .right-side-container .border {
+    margin-top: 30px;
+    width: 100%;
+    height: 1px;
+    background-color: #FEE9E1;
+    margin-bottom: 30px;
+}
+
+.userprofile-container .left-right-container .right-side-container .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.userprofile-container .left-right-container .right-side-container .form .profile-image-container {
+    position: relative;
+    width: 128px;
+    height: 128px;
+}
+
+.userprofile-container .left-right-container .right-side-container .form .profile-image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.userprofile-container .left-right-container .right-side-container .form .profile-image-container .change-profile-header {
+    position: absolute;
+    bottom: 0px;
+    left: 8.5%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 183% */
+
+
+    color: #FFFFFF;
+    background-color: rgba(27, 26, 26, 0.71);
+    width: 106px;
+    height: 35px;
+    border-radius: 50% / 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.userprofile-container .left-right-container .right-side-container .form .name-email-input-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 108px;
+
+}
+
+.userprofile-container .left-right-container .right-side-container .form .name-input-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    height: 100%;
+}
+
+.userprofile-container .left-right-container .right-side-container .form .name-input-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.userprofile-container .left-right-container .right-side-container .form .name-input-container span {
+    color: red;
+    margin-top: 0px;
+}
+
+.userprofile-container .left-right-container .right-side-container .form .name-input-container .name-input-box {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 0px 20px;
+}
+
+.userprofile-container .left-right-container .right-side-container .form .name-input-container .name-input-box:focus-within {
+    outline: 1px solid black;
+}
+   
+.userprofile-container .left-right-container .right-side-container .form .name-input-container .name-input-box input {
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.userprofile-container .left-right-container .right-side-container .form .name-input-container .name-input-box select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}

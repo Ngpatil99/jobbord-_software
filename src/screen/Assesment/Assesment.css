@@ -1,0 +1,202 @@
+
+
+ .assement-container {
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 70px);
+    position: relative;
+    background: #F1F5F7;
+    overflow: hidden;
+
+}
+
+ .assement-container .left-panel-container {
+    display: flex;
+    width: 20vw;
+    background: #384455;
+    flex-direction: column;
+    padding: 0px 35px;
+    padding-top: 40px; 
+    overflow-y: scroll;
+}
+ .assement-container .left-panel-container span{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    height: 35px;
+}
+ .assement-container .left-panel-container span label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+}
+
+ .assement-container .left-panel-container .border-of-assessment {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 1px;
+    background: #DDDDDD;
+    display: flex;
+    color:#384455;
+    
+}
+
+ .assement-container .left-panel-container .test-status-list-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    height: 35px;
+}
+
+ .assement-container .left-panel-container .test-status-list-item span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+ .assement-container .left-panel-container .created-by-dropdown-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: #F1F5F7;
+    border-radius: 2px;
+    padding: 0px 20px;
+}
+
+ .assement-container .left-panel-container .created-by-dropdown-container select {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+
+
+    color: #333333;
+}
+
+ .assement-container .right-panel-container {
+    display: flex;
+    width: 80vw;
+    height: calc(100vh - 70px);
+    flex-direction: column;
+    padding: 0px 40px;
+    padding-top: 40px;
+    gap: 38px;
+}
+
+ .assement-container .right-panel-container .header-and-button-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .assement-container .right-panel-container .header-and-button-container span {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+ .assement-container .right-panel-container .header-and-button-container span label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+
+    color: #010101;
+    width: 13.5vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ .assement-container .right-panel-container .header-and-button-container .search-container {
+    width: 28vw;
+    height: 48px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+
+ .assement-container .right-panel-container .header-and-button-container .search-container input {
+    outline: none;
+    border: none;
+    width: 80%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    /* or 146% */
+
+
+    color: #55585D;
+    margin-left: 15px;
+}
+ .assement-container .right-panel-container .header-and-button-container .search-container:focus-within{
+    border:1px solid #808080;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+ .assement-container .right-panel-container .header-and-button-container button {
+    width: 15vw;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    background: #FF6812;
+    border-radius: 2px;
+    cursor: pointer;
+}
+ .assement-container .right-panel-container .header-and-button-container button:hover{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+ .assement-container .right-panel-container .header-and-button-container button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    /* identical to box height, or 107% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF
+}
+
+ .assement-container .right-panel-container .assessment-card{
+    overflow: auto;
+    
+}

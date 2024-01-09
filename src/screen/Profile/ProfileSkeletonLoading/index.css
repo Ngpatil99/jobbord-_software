@@ -1,0 +1,100 @@
+.profile-loading-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.profile-loading-form .profile-img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+ .profile-loading-form .name-email-input-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 108px;
+
+}
+
+ .profile-loading-form .name-input-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    height: 100%;
+}
+
+ .profile-loading-form .name-input-container .component-label {
+    width: 100px;
+    height: 20px;
+}
+
+
+
+ .profile-loading-form .name-input-container .name-input-box {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 2px;
+    padding: 0px 20px;
+}
+
+.profile-loading-form .name-input-container .name-input-box .loading-svg{
+    width: 30px;
+    height: 30px;
+}
+
+ .profile-loading-form .name-input-container .name-input-box .loading-input {
+    width: 100%;
+    height: 80%;
+}
+
+
+ .profile-loading-form .name-input-container .name-input-box select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+
+.skeleton {
+    background-color: #e3e3e3 !important;
+    border-radius: 10px;
+    position: relative;
+    width: 80%;
+}
+
+.skeleton::after {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-30%);
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.2) 20%,
+            transparent);
+    animation: shimmer 2s infinite;
+    content: "";
+}
+
+@keyframes shimmer {
+    80% {
+        transform: translateX(80%);
+    }
+}

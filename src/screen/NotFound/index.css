@@ -1,0 +1,61 @@
+.not-found-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-found-container .sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40vw;
+    gap: 20px;
+}
+
+.not-found-container .sub-container img {
+    width: 100vw;
+    height: 39vh;
+    object-fit: contain;
+}
+
+.not-found-container .sub-container p {
+    width: 70%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* or 143% */
+
+    text-align: center;
+    letter-spacing: 0.32px;
+
+    color: #757677;
+}
+
+.not-found-container .sub-container button {
+    cursor: pointer;
+    background: #00C49A;
+    border-radius: 2px;
+    border: none;
+    width: 113px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.not-found-container .sub-container button label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,173 @@
+.assessment-sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #384455;
+    height: 100%;
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    /* overflow: auto; */
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview::-webkit-scrollbar {
+    display: none;
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 100%;
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .heading .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .heading .title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .heading .border-line {
+    width: 100%;
+    background-color: #DDDDDD;
+    height: 0.5px;
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .test-active {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    width: 100%;
+    align-items: center;
+    padding: 11px 0px;
+    padding-left: 14px;
+    height: 44px;
+    cursor: pointer;
+
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .test-active span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+
+}
+
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .test-notActive {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    width: 100%;
+    align-items: center;
+    padding: 11px 0px;
+    padding-left: 14px;
+    height: 44px;
+    cursor: pointer;
+
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .test-notActive span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .unpublish-test {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    height: 167px;
+    padding-top: 26px;
+    padding-left: 27px;
+    padding-right: 29px;
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .unpublish-test span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+
+    color: #050505;
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .unpublish-test p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    /* or 150% */
+
+
+    color: #827E7B;
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .unpublish-test .unpublish-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    height: 37px;
+    padding: 11px 0px;
+
+    width: 101px;
+    padding-left: 12px;
+    margin-top: 21px;
+    background: #FF6812;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.assessment-sidebar .assessment-sidebar-content-test-overview .unpublish-test .unpublish-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,847 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .title span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #000000;
+
+}
+
+.header .header-border {
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.test-type {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.test-type .test-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.test-type .test-btn .unselected-test {
+    width: 46%;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    height: 40px;
+    cursor: pointer;
+}
+
+.test-type .test-btn .selected-test {
+    width: 46%;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid #FF6812;
+    height: 40px;
+    cursor: pointer;
+    color: #FF6812;
+}
+
+.test-type .test-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.test-type .library-type {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.test-type .library-type .library-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: left;
+    align-items: center;
+}
+
+.test-type .library-type .library-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    color: #252424;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    width: 100%;
+}
+
+.details .experience {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 47.5%;
+    position: relative;
+}
+
+.details .experience span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+.details .job-role {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 47.5%;
+}
+
+.details .job-role .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+}
+
+.details .job-role .select-box select {
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 17px;
+    width: 90%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+
+
+}
+
+.details .job-role .select-box .vector-svg {
+    position: absolute;
+    top: 21px;
+    right: 17px;
+}
+
+.details .job-role span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+.details .experience .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.details .experience .select-box input {
+    outline: none;
+    position: absolute;
+    border: none;
+    height: 90%;
+    width: 87%;
+    padding-left: 40px;
+    margin-right: 40px;
+}
+
+.details .experience .select-box .search-svg {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    z-index: 10;
+}
+
+/* **************************table styling************************* */
+
+.skill-table {
+    width: 100%;
+}
+
+.skill-table .skillset {
+    width: 70%;
+}
+
+.skill-table .skillset {
+    width: 70%;
+    border-left: 1px solid #DDDDDD;
+
+}
+
+.skill-table .skillset th {
+    background: #384455;
+    height: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    border-right: 1px solid #DDDDDD;
+}
+
+.skill-table .skillset th:nth-child(1) {
+    width: 33.3%;
+    /* padding-left: 24px;
+    text-align: left; */
+    height: 36px;
+}
+.table-colum-auto-width .skillset th:nth-child(1) {
+    width: auto !important;
+    /* padding-left: 24px;
+    text-align: left; */
+    height: 36px;
+} .skillset th:nth-child(1) {
+    width: 33.3%;
+    /* padding-left: 24px;
+    text-align: left; */
+    height: 36px;
+}
+.skill-table .skillset th:nth-child(2) {
+    width: 20.3%;
+    height: 36px;
+}
+
+.skill-table .skillset th:nth-child(3) {
+    width: 20.3%;
+}
+
+.skill-table .skillset th:nth-child(4) {
+    width: 20.3%;
+}
+.skill-table .skillset td {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    color: #333333;
+}
+
+.skill-table .skillset td:nth-child(1) {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    height: 70px;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.skill-table .skillset td:nth-child(2) {
+    text-align: center;
+    height: 70px;
+}
+
+.skill-table .skillset td:nth-child(2) input {
+
+    width: 65px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #333333;
+    padding: 5px 5px;
+}
+
+.skill-table .skillset td:nth-child(2) svg {
+    margin-left: 10px;
+}
+
+.skill-table .skillset td:nth-child(3) {
+    text-align: center;
+    height: 70px;
+}
+
+.skill-table .skillset td:nth-child(3) input {
+
+    width: 65px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #333333;
+    padding: 5px 5px;
+}
+.skill-table .skillset td:nth-child(4) input {
+
+    width: 65px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #333333;
+    padding: 5px 5px;
+}
+.skill-table .skillset td:nth-child(2) select {
+    outline: none;
+    border: none;
+    width: 65px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #333333;
+}
+
+
+
+/* ********************************button styling************************ */
+
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 30px;
+}
+
+.button .cancel-btn {
+    width: 111px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #FF6812;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button .cancel-btn button {
+    background: #FF6812;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 9px;
+    color: #FFFFFF;
+}
+
+.button .next-btn {
+    width: 94px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #00C49A;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button .next-btn button {
+    background: #00C49A;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 9px;
+    color: #FFFFFF;
+}
+
+.radio-label {
+    color: #384455;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+/* ************************skill container changes******************* */
+.details .experience .skill-list-item-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 2px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    gap: 10px;
+}
+
+.details .experience .skill-list-item-container button {
+    background: #F8F8F8;
+    border: 1px solid #00C49A;
+    border-radius: 24px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.details .experience .skill-list-item-container button span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* Black */
+
+    color: #00C49A;
+}
+
+.details .experience .skill-list-item-container button .right-icon {
+    display: block;
+}
+
+.details .experience .skill-list-item-container button .cancel-icon {
+    display: none;
+}
+
+.details .experience .skill-list-item-container button:hover .cancel-icon {
+    display: block
+}
+
+.details .experience .skill-list-item-container button:hover .right-icon {
+    display: none;
+}
+
+.details .experience .skill-list-item-container button:hover span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: red;
+
+}
+
+.details .experience .skill-list-item-container button:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+.details .experience .skill-list-item-container button:hover svg circle {
+    fill: red;
+}
+
+.details .experience .skill-list-item-container button:hover svg path {
+    stroke: white;
+}
+
+
+
+
+.details .experience .search-result-container {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0px;
+    top: 5em;
+}
+
+.details .experience .search-result-container .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 10px;
+    height: 30px;
+}
+
+.skills-item-container {
+    border: 1px solid rgb(0, 196, 154);
+    display: flex;
+    align-items: center;
+    color: rgb(0, 196, 154);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    height: 34px;
+    border-radius: 27px;
+    padding: 11px;
+    margin-top: 10px;
+}
+
+.info-container {
+    border-left: 5px solid #FF6812;
+    padding: 5px;
+    background-color: #FEE9E1;
+    display: 'flex';
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.info-container .info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+    border-radius: 5px;
+    padding: 0px 5px;
+    /* width: 13vw; */
+    /* height: 35px; */
+    gap: 5px;
+    cursor: pointer;
+}
+
+.info-container .info span {
+    color: #696767;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    padding-left: 10px;
+}
+
+.left-side-bg {
+    background-color: #D9E1E7;
+    position: relative;
+    right: 33px;
+    /* top: -15px; */
+}
+
+.all-skill-set-text {
+    color: #000;
+
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+.add-manage {
+    color: #000;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 137.5% */
+    margin-top: 10px;
+}
+
+.label {
+    color: #384455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bordered-container {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    padding: 17px 130px 17px 18px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    margin-top: 10px;
+}
+
+.button .delete-btn {
+    width: 111px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #F23E3E;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button .delete-btn button {
+    background: #F23E3E;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 9px;
+    color: #FFFFFF;
+}
+
+.button-skill-set {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 3px;
+    right: 10px
+}
+
+.button .add-skill-btn {
+    width: 136px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #384455;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    right: 23px;
+}
+
+.button .add-skill-btn button {
+    background: #384455;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 9px;
+    color: #FFFFFF;
+}
+
+.skill-label {
+    color: #384455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.skill-select {
+    color: #00C49A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.info-container-bg {
+    /* border-left: 5px solid #FF6812; */
+    /* padding: 5px; */
+    background-color: #FEE9E1;
+    display: 'flex';
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.info-container-bg .info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+    border-radius: 5px;
+    padding: 0px 5px;
+    /* width: 13vw; */
+    /* height: 35px; */
+    gap: 5px;
+    cursor: pointer;
+}
+
+.info-container-bg .info span {
+    color: #696767;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    padding-left: 10px;
+}
+
+.info-container-bg .info img {
+    cursor: "pointer";
+    background-color: '#FF6812';
+    padding: '6px';
+    position: relative;
+    right: 4px;
+
+}
+
+.centered-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.centered-info span {
+    border: solid 1px gray;
+    padding: 3px;
+    width: 38px;
+    border-radius: 4px;
+}
+
+.choose-topic {
+    display: flex;
+    padding: 7px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px solid #00C49A;
+    background: #FFF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.choose-topic-diselect {
+    display: flex;
+    padding: 7px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px solid #CEE1EC;
+    background: #FFF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.choose-topic-name{
+    color: #00C49A;
+}
+.choose-topic-diselect-name {
+    color: #1B2126;
+}
+.MuiAutocomplete-hasPopupIcon.css-u44fxw-MuiAutocomplete-root .MuiOutlinedInput-root{
+    padding-right: 10px !important;
+}
+.line-width{
+    width: 100%;
+    margin-bottom: 8px;
+}
+.modal-heading-label{
+    display: flex;
+    justify-content: space-between;
+     padding: 10px;
+     padding-left: 1px;
+}
+.choose-topic:hover {
+    border-color: red; /* Add your desired hover color here */
+  }
+  .topic-name-hover{
+    color:red
+  }
+  
+  

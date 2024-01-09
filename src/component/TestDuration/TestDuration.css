@@ -1,0 +1,214 @@
+.test-duration-container {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.test-duration-container .test-duration-type-box {
+    width: 410px;
+    /* height: 380px; */
+    padding: 26px 30px 34px 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    box-shadow: 10px 10px 50px rgba(100, 96, 96, 0.08);
+    gap: 30px;
+}
+
+.test-duration-container .test-duration-type-box .header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.test-duration-container .test-duration-type-box .header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.test-duration-container .test-duration-type-box .header .title span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #000000;
+
+}
+
+.test-duration-container .test-duration-type-box .header .header-border {
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.test-duration-container .test-duration-type-box .details {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.test-duration-container .test-duration-type-box .details .duration {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.test-duration-container .test-duration-type-box .details .duration .duration-title {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.test-duration-container .test-duration-type-box .details .duration .duration-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+.test-duration-container .test-duration-type-box .details .duration .duration-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+}
+
+/* 
+.test-duration-container .test-duration-type-box .details .duration span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #384455;
+} */
+
+.test-duration-container .test-duration-type-box .details .duration .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.test-duration-container .test-duration-type-box .details .duration .select-box:focus-within {
+    border: 1px solid #00C49A;
+}
+
+.test-duration-container .test-duration-type-box .details .duration .select-box input {
+    outline: none;
+    position: absolute;
+    width: 90%;
+    border: none;
+    height: 99%;
+    padding-left: 14px;
+    margin-right: 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+
+}
+
+
+.test-duration-container .test-duration-type-box .details .duration .select-box input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* ********************************button styling************************ */
+
+
+.test-duration-container .test-duration-type-box .button {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: right;
+    gap: 30px;
+}
+
+.test-duration-container .test-duration-type-box .button .cancel-btn {
+    width: 111px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    background: #FF6812;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.test-duration-container .test-duration-type-box .button .cancel-btn button {
+    background: #FF6812;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+}
+
+.test-duration-container .test-duration-type-box .button .next-btn {
+    width: 94px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    background: #00C49A;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.test-duration-container .test-duration-type-box .button .next-btn button {
+    background: #00C49A;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+}

@@ -1,0 +1,319 @@
+.shortlist-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.shortlist-container::-webkit-scrollbar {
+    display: none;
+}
+
+.shortlist-container .test-taken-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.shortlist-container .test-taken-container::-webkit-scrollbar {
+    display: none;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-left {
+    display: flex;
+    width: 20vw;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    overflow: auto;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    background: #FFFFFF;
+    padding: 30px;
+    gap: 30px;
+}
+
+/* *************************header************************** */
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .test-taken-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* gap: 66px; */
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .test-taken-header .test-not-active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .test-taken-header .test-not-active span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #49484C;
+    width: 95%;
+}
+
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .test-taken-header .test-active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #FF6812;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .test-taken-header .test-active span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FF6812;
+    width: 95%;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left .check {
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid #827C7C;
+    border-radius: 2px;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #384455;
+    text-transform: capitalize;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    width: 55%;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right select {
+    font: 400 13px/22px 'Nunito Sans', sans-serif;
+    color: #333333;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    height: 38px;
+    padding: 0px 21px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    cursor: pointer;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 9px) center;
+    width: 83px;
+    background-image: url('../../assets/icon/filter.svg');
+}
+
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right .filter {
+    height: 38px;
+    display: flex;
+
+    align-items: center;
+    padding: 11px 12px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right .filter span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right .shortlist {
+    display: flex;
+    background: #999999;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 12px;
+    gap: 8px;
+
+    cursor: pointer;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right .shortlist span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    /* overflow: scroll; */
+}
+
+
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .msg {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.shortlist-container .skeleton {
+    width: 30px;
+    height: 10px;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left .input-container {
+    width: 20vw;
+    height: 40px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #ECECEC;
+    border-radius: 2px;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left .input-container input {
+    outline: none;
+    border: none;
+    width: 80%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    /* or 146% */
+
+
+    color: #55585D;
+    margin-left: 15px;
+    background: #ECECEC;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-left .input-container:focus-within {
+    border: 1px solid #808080;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.search-container-shortlisted{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: #efefef;
+    width: 20vw;
+    padding: 4px;
+}
+
+
+
+
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right .search-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 290px;
+    z-index: 10;
+    margin-top: 5px;
+    background: #F1F5F7;
+    border-radius: 10px;
+    padding: 20px;
+    max-height: 150px;
+    overflow: scroll;
+    position: absolute;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .candidate-test-heading .test-heading-right .search-container span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 5px;
+}
+
+.shortlist-container .test-taken-container .test-taken-container-right .test-taken-content .test-heading-right .search-container span:hover {
+    cursor: pointer;
+    padding: 5px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}

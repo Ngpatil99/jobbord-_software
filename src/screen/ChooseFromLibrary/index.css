@@ -1,0 +1,290 @@
+.choose-library-container {
+    display: flex;
+    flex-direction: row;
+    background: #F1F5F7;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    position: relative;
+}
+
+
+.choose-library-container .left-side {
+    width: 20vw;
+    height: calc(100vh - 70px);
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #384455;
+    gap: 15px;
+    overflow: auto;
+    position: relative;
+}
+
+.choose-library-container .left-side  span label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+}
+
+.choose-library-container .left-side .border {
+    border: 0.5px solid #DDDDDD;
+}
+
+.choose-library-container .left-side span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.choose-library-container .left-side span .checkbox-container {
+    width: 15px;
+    height: 15px;
+    background-color: #FF6812;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.choose-library-container .left-side span p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.choose-library-container .left-side .search-skill-container {
+    height: 40px;
+    padding: 10px 24px;
+    background-color: #F1F5F7;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choose-library-container .left-side  .skills-item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.choose-library-container .left-side  .skills-item-container span{
+    display: flex;
+    gap:8px;
+    align-items: center;
+}
+
+.choose-library-container .left-side .search-skill-container input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 70%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height, or 190% */
+
+
+    color: #55585D;
+}
+
+.choose-library-container .left-side .search-result-container{
+    width: 82.8%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 25px;
+    top: 15.6em;
+}
+
+.choose-library-container .left-side .search-result-container .skill-item{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 10px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.choose-library-container .left-side .search-result-container .skill-item span{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height, or 190% */
+
+
+    color: #000000;
+}
+
+.choose-library-container .left-side .search-result-container .skill-item:hover{
+    background: rgba(56, 68, 85, 0.1);
+    border-radius: 2px;
+
+}
+
+.choose-library-container .right-side {
+    width: 80vw;
+    height: 100%;
+    padding: 40px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F5F7;
+
+}
+
+.choose-library-container .right-side .header-container {
+    display: flex;
+    gap: 98px;
+    margin-bottom: 45px;
+    justify-content: space-between;
+}
+
+.choose-library-container .right-side .header-container .btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.choose-library-container .right-side .header-container span {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.choose-library-container .right-side .header-container span .libray-name-header {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+
+    color: #252424;
+}
+
+.choose-library-container .right-side .header-container span .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 45px;
+}
+.choose-library-container .right-side .header-container span .search-container input:focus-within{
+    border:1px solid #808080;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.choose-library-container .right-side .header-container span .search-container input {
+    width: 24vw;
+    height: 45px;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 0px 30px;
+    padding-right: 30px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    padding-left: 40px;
+}
+
+.choose-library-container .right-side .header-container span .search-container .clear-icon{
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+.choose-library-container .right-side .header-container span .search-container .search-icon {
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+}
+
+.choose-library-container .right-side .button-container {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.choose-library-container .right-side .button-container button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #00C49A;
+    border-radius: 2px;
+    height: 45px;
+    width: 160px;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+.choose-library-container .right-side .button-container button:hover{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.choose-library-container .right-side .button-container button p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.choose-library-container .right-side .button-container button:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #00C49A;
+    border-radius: 2px;
+    height: 45px;
+    padding: 12px 23px;
+    border: none;
+}
+
+.choose-library-container .right-side .button-container button:nth-child(2) p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+}
+
+.choose-library-container .right-side .library1-container {
+    height: 72vh;
+    overflow: auto;
+}

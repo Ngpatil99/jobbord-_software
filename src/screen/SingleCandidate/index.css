@@ -1,0 +1,697 @@
+.single-candidate {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.single-candidate .single-candidate-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-left {
+    display: flex;
+    width: 20vw;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    overflow: auto;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    background: #FFFFFF;
+    padding: 30px;
+    gap: 30px;
+}
+
+
+/* ***********************************header********************* */
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-header .header-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-header .header-content .heading-title {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-header .header-content .heading-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #333333;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-header .header-content button {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 117px;
+    height: 43px;
+    outline: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+
+    background: #00C49A;
+    border-radius: 2px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.candidateStatus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.show-question-options{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    /* justify-content: flex-start; */
+}
+
+.sun-editor-editable2{
+    padding: 0px !important;
+    font-family: 'Roboto' !important;
+    font-size: 18px !important;
+}
+.sun-editor-editable2 p{
+    margin: 0 !important;
+}
+.question-option-html p{
+    margin: 0 !important;
+    margin-left: 3px !important;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-header .horizontal-line {
+    height: 1px;
+    width: 100%;
+    background-color: #FEE9E1;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-bio {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    width: 100%;
+    height: 113px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-bio .first-box {
+    display: flex;
+    /* flex-direction: row; */
+    border-right: 1px solid #DDDDDD;
+    width: 60%;
+    align-items: center;
+    padding-left: 28px;
+    box-sizing: border-box;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-bio .first-box .first-candidate {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    align-items: center;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-bio .first-box .first-candidate .candidate-name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-bio .first-box .first-candidate .candidate-name span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #313131;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-bio .first-box .first-candidate .candidate-name p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-bio .box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    /* align-items: center; */
+    justify-content: left;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .box-content span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #00C49A;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .box-content p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-bio .second-box {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #DDDDDD;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-bio .third-box {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #DDDDDD;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-bio .fourth-box {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    /* border-right: 1px solid #DDDDDD; */
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-candidate {
+    width: 48.5%;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-candidate span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #313131;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-candidate ul {
+    margin-left: 17px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-candidate li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* display: flex;
+    align-items: center; */
+
+    color: #5A5858;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-test {
+    display: flex;
+    flex-direction: column;
+
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    width: 48.5%;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-test .snapshots {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+    border-bottom: 1px solid #DDDDDD;
+    align-items: center;
+    justify-content: center;
+    height: 132px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-test .snapshots span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #313131;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-test .snapshots p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+
+    color: #00C49A;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-test .snapshots-bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-test .snapshots-bottom .tab-switched {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-right: 1px solid #DDDDDD;
+    height: 132px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-test .snapshots-bottom .plag {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    /* border-right: 1px solid #DDDDDD; */
+    height: 100%;
+    height: 132px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-test .snapshots-bottom .group-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-test .snapshots-bottom .group-content span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #313131;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .candidate-details .candidate-test .about-test .snapshots-bottom .group-content p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+
+    color: #827C7C;
+}
+
+
+/* *************************************body****************** */
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .test-analysis {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 22px;
+
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .test-analysis .title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #313131;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .test-analysis .test-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .test-analysis .test-info span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+
+    color: #827C7C;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .test-analysis .test-info p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #313131;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .skillwise-performance {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .skillwise-performance .skillwise-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .skillwise-performance .skillwise-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    height: 113px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .skillwise-performance .skillwise-info .first-info-box {
+    display: flex;
+    flex-direction: row;
+    width: 41%;
+    border-right: 1px solid #DDDDDD;
+    padding-left: 36px;
+    align-items: center;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .select-box {
+    padding-right: 15px;
+    height: 44px;
+    width: 128px;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content select {
+    width: 92%;
+    border: none;
+    outline: none;
+    height: 42px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .skillwise-performance .skillwise-info .second-info-box {
+    display: flex;
+    flex-direction: row;
+    width: 17%;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #DDDDDD;
+
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .skillwise-performance .skillwise-info .third-info-box {
+    display: flex;
+    flex-direction: row;
+    width: 17%;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #DDDDDD;
+
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .test-body .skillwise-performance .skillwise-info .fourth-info-box {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-title .select-box {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table {
+    display: flex;
+    width: 100%;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table table {
+    /* display: flex; */
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table table th {
+    /* display: flex; */
+    width: 100%;
+    background: #F1F5F7;
+    height: 49px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table table th:nth-child(1) {
+    /* display: flex; */
+    width: 6%;
+    text-align: center;
+    /* backgrou nd: #F1F5F7; */
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table table th:nth-child(2) {
+    /* display: flex; */
+    width: 60%;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+
+    color: #333333;
+    /* backgrou nd: #F1F5F7; */
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table table th:nth-child(3) {
+    /* display: flex; */
+    width: 10%;
+    text-align: center;
+    /* backgrou nd: #F1F5F7; */
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table table th:nth-child(4) {
+    /* display: flex; */
+    width: 10%;
+    text-align: center;
+    /* backgrou nd: #F1F5F7; */
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table table td {
+    /* display: flex; */
+    width: 10%;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    border-bottom: 1px solid #DDDDDD;
+    color: #696974;
+    /* backgrou nd: #F1F5F7; */
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table table td:nth-child(2) {
+    text-align: left;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table td .show-question-options-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.single-candidate .single-candidate-container .single-candidate-container-right .single-candidate-content .question-report .question-table td .show-question-options-container span{
+    width: 100%;
+    text-align: left;
+    font-size: 18px !important;
+}

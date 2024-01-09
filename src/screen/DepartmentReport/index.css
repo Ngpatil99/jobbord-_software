@@ -1,0 +1,161 @@
+.department-report {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.department-report .department-report-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.department-report .department-report-container .department-left {
+    display: flex;
+    width: 20vw;
+    /* border: 1px solid black; */
+}
+
+.department-report .department-report-container .department-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 75px 40px;
+    overflow: auto;
+}
+
+.department-report .department-report-container .department-right .department-report-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    background: #FFFFFF;
+    padding: 30px;
+    gap: 30px;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #FEE9E1;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-header .department-report-header-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-header .department-report-header-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+
+    color: #333333;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-header .department-report-header-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-btn {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+
+    width: 207.84px;
+    height: 44px;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-btn:focus-within {
+    border: 1px solid black;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-btn select {
+    height: 42px;
+    width: 90%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-body .department-report-body-left {
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    height: 347px;
+    padding: 35px;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-body .department-report-body-left .department-report-body-left-title {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 3px;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-body .department-report-body-left .department-report-body-left-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #384455;
+    
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-body .department-report-body-left .department-report-body-left-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    
+    color: #827C7C;
+    
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-body .department-report-body-right {
+    border: 1px solid #DDDDDD;
+    padding: 35px;
+    width: 100%;
+    height: 608px;
+}
+
+.department-report .department-report-container .department-right .department-report-content .department-report-body .department-report-body-right .department-report-body-right-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #384455;    
+}

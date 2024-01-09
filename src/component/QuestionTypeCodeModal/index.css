@@ -1,0 +1,175 @@
+.layout-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.back-button {
+    background: #827C7C;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 35px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 98px;
+    border: none;
+    gap: 11px;
+}
+
+.back-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.next-button {
+    background: #00c49a;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 35px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 97px;
+    border: none;
+    gap: 11px;
+}
+
+.next-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.title {
+    color: #333 !important;
+    font-family: Roboto !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+}
+
+.que-type-tile {
+    color: #384455 !important;
+    font-family: Roboto !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+}
+
+.dificulty-tile {
+    width: 130px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1.5px solid #DDD;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.MuiAutocomplete-hasPopupIcon.css-flxcbs-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding-right: 19px !important
+}
+
+.css-flxcbs-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 5px !important;
+}
+
+.test-case-label {
+    color: #384455;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.partial-score {
+    color: #333 !important;
+    font-family: Roboto !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    /* 157.143% */
+}
+
+.add-test-case {
+    color: #00C49A;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lang-label {
+    color: #696767;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+
+.add-testcases-labels {
+    color: #384455;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.add-test-btn {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.upload-text {
+    color: #384455;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.note {
+    color: #5A5858;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

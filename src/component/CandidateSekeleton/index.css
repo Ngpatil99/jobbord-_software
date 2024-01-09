@@ -1,0 +1,131 @@
+.candidate-loader-card-container {
+    padding: 20px;
+    border-radius: 2px;
+    background: #ECECEC;
+    border: 0.7px solid transparent;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.candidate-loader-card-container:hover {
+    box-shadow: 0px 15px 20px -3px rgba(0, 0, 0, 0.05);
+    border: 0.7px solid #FF6812;
+}
+
+.candidate-loader-card-container .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    color: #313131;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.candidate-loader-card-container .left-side .header {
+    width: 20vw;
+    height: 25px;
+}
+
+.candidate-loader-card-container .left-side button {
+    border: none;
+}
+
+.candidate-loader-card-container .left-side .info {
+    width: 30vw;
+    height: 14px;
+}
+
+
+.candidate-loader-card-container .left-side .bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 31px;
+}
+
+.candidate-loader-card-container .left-side .bottom-container .toggle {
+    width: 30px;
+    height: 14px;
+}
+
+.candidate-loader-card-container .left-side .bottom-container .box {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 14px;
+    gap: 5px
+}
+
+
+
+.candidate-loader-card-container .right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.candidate-loader-card-container .right-side .header {
+    display: flex;
+    flex-direction: column;
+}
+
+.candidate-loader-card-container .right-side .header span {
+    align-self: flex-end;
+    width: 50px;
+    height: 30px;
+}
+
+
+.candidate-loader-card-container .right-side .header p {
+    align-self: flex-end;
+    margin-top: 10px;
+    width: 120px;
+    height: 16px;
+}
+
+.candidate-loader-card-container .right-side .bottom-container {
+    display: flex;
+    gap: 20px;
+}
+
+.candidate-loader-card-container .right-side .bottom-container button {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    border: none;
+}
+
+.candidate-loader-card-container .skeleton {
+    background-color: #FFFFFF !important;
+    border-radius: 10px;
+    position: relative;
+    width: 80%;
+}
+
+.candidate-loader-card-container .skeleton::after {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-20%);
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.2) 20%,
+            transparent);
+    animation: shimmer 2s infinite;
+    content: "";
+}
+
+@keyframes shimmer {
+    80% {
+        transform: translateX(80%);
+    }
+}

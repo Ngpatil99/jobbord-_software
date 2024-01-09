@@ -1,0 +1,1132 @@
+.create-test-1-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.create-test-1-container .create-test-1 {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 70px);
+}
+
+.create-test-1-container .create-test-1 .left ::-webkit-scrollbar {
+    display: none;
+    padding-bottom: 30px;
+}
+
+.create-test-1-container .create-test-1 .right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    height: calc(100vh - 70px);
+    padding: 30px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.create-test-1-container .create-test-1 .right::-webkit-scrollbar {
+    display: none;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .col .header-bar {
+    width: 100%;
+    height: 1px;
+    background-color: #FEE9E1;
+    margin-top: 30px;
+}
+
+
+.create-test-1-container .create-test-1 .right .test-1-container .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .header .title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .header .title .group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .header .title .group span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .header .title .group p {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .header .next-button {
+    background: #00c49a;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 44px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 97px;
+    border: none;
+    gap: 11px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .header .next-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    width: 100%;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 48%;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-heading span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-heading span label{
+    vertical-align: top;    
+    display: inline-block;
+    color: red;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-heading input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    padding: 16px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 2px;
+    text-transform: capitalize;
+}
+
+/* *********************************************** */
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-description-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    overflow-x: hidden;
+    word-wrap: break-word;
+    justify-content: flex-start;
+    gap: 10px
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-description-2 label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* identical to box height */
+    color: #384455;
+}
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-description-2 label span{
+    vertical-align: top;    
+    display: inline-block;
+    color: red;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-description-2 .richtext-box-container {
+    width: 100%;
+    height: 25vh;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 0px 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #2F2E2E;
+}
+
+
+/* ************************************************** */
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-description span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-description textarea {
+    width: 100%;
+    height: 314px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    resize: none;
+    outline: none;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-description textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 48%;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-title {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-title span label{
+    vertical-align: top;
+    display: inline-block;
+    color: red;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button .temp {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button .temp .selected-test {
+    display: flex;
+    flex-direction: row;
+    width: 88%;
+    border: 1px solid #FF6812;
+    padding: 10px 15px 10px 15px;
+    height: 50px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button .temp .selected-test .auto-test {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button .temp .selected-test .auto-test span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #252424;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button .temp .unselected-test {
+    display: flex;
+    flex-direction: row;
+    width: 88%;
+    border: 1px solid #DDDDDD;
+    padding: 10px 15px 10px 15px;
+    height: 50px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button .temp .unselected-test .auto-test {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button .temp .unselected-test .auto-test span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    /* line-height: 22px; */
+    /* identical to box height, or 157% */
+
+
+    color: #252424;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button .library-type {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button .library-type .library-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .test-type .test-button .library-type .library-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #252424;
+
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .experience {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 46%;
+
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .experience span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* identical to box height */
+    color: #384455;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .experience span label{
+    vertical-align: top;
+    display: inline-block;
+    color:red
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .job-role {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 48%;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .job-role .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .job-role .select-box select {
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+    padding-left: 15px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    text-transform: capitalize;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .job-role .select-box .vector-svg {
+    position: absolute;
+    top: 21px;
+    right: 17px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .job-role span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* identical to box height */
+    color: #384455;
+}
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .job-role span label{
+    vertical-align: top;
+    color:red;
+    display: inline-block;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .experience .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .experience .select-box select {
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+    padding-left: 15px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .details .experience .select-box .vector-svg {
+    position: absolute;
+    top: 21px;
+    right: 17px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skills .skill-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skills .search {
+    border: 1px solid #DDDDDD;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 40px;
+    align-items: center;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skills .search .search-svg {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skills .search .tag-svg {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skills .search input {
+    border: none;
+    width: 83%;
+    outline: none;
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skills .skills-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin-top: 3px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skills .skills-icons .skill-icon {
+    display: flex;
+    background: #F8F8F8;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    padding: 7px 8px 7px 16px;
+    gap: 3px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skills .skills-icons .skill-icon span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* Black */
+
+    color: #1B2126;
+
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skills .skills-icons .skill-icon svg {
+    cursor: pointer;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .time-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .time-container .time-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 46%;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .time-container .time-box .box {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #DDDDDD;
+    height: 50px;
+    width: 100%;
+    padding: 12px 0px 12px 20px;
+    box-sizing: border-box;
+    gap: 12px;
+    align-items: center;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .time-container .time-box .box .calender {
+    /* position: absolute; */
+    top: 12px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .time-container .time-box .box input {
+    border: none;
+    outline: none;
+    width: 90%;
+    position: relative;
+    
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .time-container .time-box .box input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .time-container .time-box .box input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+    margin-right: -10px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .time-container .time-box .box .ver-line {
+    height: 10px;
+    width: 1px;
+    background-color: #1B2126;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .time-container .time-box span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* identical to box height */
+    color: #384455;
+}
+
+
+/* **************************************************** */
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .left .test-description .richtext-box-container {
+    width: 100%;
+    height: 25vh;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 0px 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #2F2E2E;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px; 
+    position: relative;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .skill-list-item-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 2px;
+    flex-wrap: wrap;
+    margin-top: 19px;
+    gap: 10px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .skill-list-item-container button {
+    background: #F8F8F8;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    padding: 7px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .skill-list-item-container button span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* Black */
+
+    color: #1B2126;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .skill-list-item-container button:hover {
+    border: 1px solid #00C49A;
+    color: #00C49A;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .skill-list-item-container button:hover span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #00C49A;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .skill-list-item-container button:hover svg circle {
+    fill: #00C49A;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .skill-list-item-container button:hover svg path {
+    stroke: white;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* identical to box height */
+    color: #384455;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container span{
+    vertical-align: top;    
+    display: inline-block;
+    color: red;
+}
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .inputbox-skill {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 0px 15px;
+
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .inputbox-skill:focus-within {
+    border: 1px solid #000;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .inputbox-skill input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 0px 15px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 2px;
+    flex-wrap: wrap;
+    margin-top: 19px;
+    gap: 10px;
+    min-height: 30vh;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button {
+    background: #F8F8F8;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    padding: 7px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* Black */
+
+    color: #1B2126;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button:hover {
+    border: 1px solid #00C49A;
+    color: #00C49A;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button:hover span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #00C49A;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button:hover svg circle {
+    fill: #00C49A;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .selected-skill-main-container .skill-list-item-container button:hover svg path {
+    stroke: white;
+}
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .border{
+    min-height: 30vh;
+    background-color: #000;
+    width: 1px;
+}
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .suggested-main-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .suggested-main-container label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* identical to box height */
+    color: #384455;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 2px;
+    flex-wrap: wrap;
+    margin-top: 19px;
+    gap: 10px;
+    min-height: 30vh;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button {
+    background: #F8F8F8;
+    border: 1px solid #CEE1EC;
+    border-radius: 24px;
+    padding: 7px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* Black */
+
+    color: #1B2126;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button:hover {
+    border: 1px solid #00C49A;
+    color: #00C49A;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button:hover span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #00C49A;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button:hover svg circle {
+    fill: #00C49A;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-suggested-skill-container .suggested-skill-list-item-container button:hover svg path {
+    stroke: white;
+}
+
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .search-result-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: auto;
+    top: 5.5em;
+    padding: 10px 10px;
+    background: #F1F5F7;
+    border-radius: 2px;
+    z-index: 10;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .search-result-container .skill-item {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 10px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .search-result-container .skill-item span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    /* identical to box height, or 190% */
+
+
+    color: #000000;
+    
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.create-test-1-container .create-test-1 .right .test-1-container .content .right-side .skill-topics-container .skill-input-header-container .search-result-container .skill-item:hover {
+    background: rgba(56, 68, 85, 0.1);
+    border-radius: 2px;
+}
+
+
+
+/* ******************************************************************************************** */
+
+.RichEditor-root-2 {
+    background: #fff;
+    border: 1px solid #ddd;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #2F2E2E;
+    padding: 15px;
+    min-height: 336px;
+    word-wrap: break-word;
+    border-radius: 2px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+/* 
+.RichEditor-root-2:focus-within {
+    border: 1px solid #000;
+    width: 100%;
+} */
+
+.RichEditor-editor {
+    border-top: 1px solid #ddd;
+    cursor: text;
+    /* width: 100%; */
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+
+    color: #2F2E2E;
+    text-transform: capitalize;
+}
+
+.RichEditor-editor .public-DraftEditorPlaceholder-root,
+.RichEditor-editor .public-DraftEditor-content {
+    margin: 0 -15px -15px;
+    padding: 15px;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+    min-height: 100px;
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+    display: none;
+}
+
+.RichEditor-editor .RichEditor-blockquote {
+    border-left: 5px solid #eee;
+    color: #666;
+    font-family: 'Hoefler Text', 'Georgia', serif;
+    font-style: italic;
+    margin: 16px 0;
+    padding: 10px 20px;
+}
+
+.RichEditor-editor .public-DraftStyleDefault-pre {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.RichEditor-controls {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    user-select: none;
+}
+
+.RichEditor-styleButton {
+    color: #999;
+    cursor: pointer;
+    margin-right: 16px;
+    padding: 2px 0;
+    display: inline-block;
+}
+
+.RichEditor-activeButton {
+    color: #5890ff;
+}

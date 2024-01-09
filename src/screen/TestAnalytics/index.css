@@ -1,0 +1,171 @@
+.test-analytics {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.test-analytics .test-analytics-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.test-analytics .test-analytics-container .test-analytics-left {
+    display: flex;
+    width: 20vw;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 80px 40px;
+    overflow: auto;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+    padding: 30px;
+    gap: 30px;
+}
+
+
+/* *************************header************************** */
+
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .test-taken-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* gap: 66px; */
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .test-taken-header .test-not-active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #FFFFFF;
+    /* border-bottom: 2px solid #DDDDDD; */
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .test-taken-header .test-not-active span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #49484C;
+}
+
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .test-taken-header .test-active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #FF6812;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .test-taken-header .test-active span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FF6812;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .hiring-funnel {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #DDDDDD;
+    padding: 35px;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .hiring-funnel .hiring-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .hiring-funnel .hiring-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .hiring-funnel .hiring-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .candidate-score-graph {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #DDDDDD;
+    padding: 35px;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .candidate-score-graph .score-graph-title {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .candidate-score-graph .score-graph-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #384455;
+}
+
+.test-analytics .test-analytics-container .test-analytics-right .test-analytics-content .candidate-score-graph .score-graph-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}

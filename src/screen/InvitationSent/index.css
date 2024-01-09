@@ -1,0 +1,80 @@
+.invitation-sent-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+}
+
+.invitation-sent-container .invite-sent-bulk-container {
+    width: 100vw;
+    height: calc(100vh - 70px);
+    background: #F1F5F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+    overflow: auto;
+}
+
+.invitation-sent-container .invite-sent-bulk-container .invite-sent-content {
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    justify-content: center;
+    border-top: 4px solid #00C49A;
+    /* height: 800px; */
+
+    /* padding: 0px 200px; */
+
+    border-radius: 2px;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.invitation-sent-container .invite-sent-bulk-container .invite-sent-content .mail {
+    width: 188px;
+    height: 188px;
+}
+
+.invitation-sent-container .invite-sent-bulk-container .invite-sent-content .title {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.invitation-sent-container .invite-sent-bulk-container .invite-sent-content .title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.32px;
+
+    color: #333333;
+}
+
+.invitation-sent-container .invite-sent-bulk-container .invite-sent-content .title p {
+    font-family: 'Roboto';
+    width: 75%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+    letter-spacing: 0.32px;
+
+    color: #757677;
+}

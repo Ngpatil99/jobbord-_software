@@ -1,0 +1,212 @@
+.manage-access {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.manage-access .manage-access-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.manage-access .manage-access-container .manage-access-left {
+    display: flex;
+    width: 20vw;
+    /* border: 1px solid black; */
+}
+
+.manage-access .manage-access-container .manage-access-right {
+    background-color: #F1F5F7;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 75px 40px;
+    overflow: auto;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    background: #FFFFFF;
+    padding: 30px;
+    gap: 30px;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #FEE9E1;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-header .manage-access-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-header .manage-access-title span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+
+    color: #333333;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-header .manage-access-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #696767;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-header .manage-access-title .manage-access-name {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-header .manage-access-invite-member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    background: #00C49A;
+    border-radius: 2px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    padding: 12px 18px;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content {
+    width: 100%;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content table {
+    width: 100%;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content table th {
+    background: #F1F5F7;
+    border-radius: 2px 2px 0px 0px;
+    height: 50px;
+    border-right: 1px solid #DDDDDD;
+    text-align: left;
+    padding-left: 22px;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content table th:nth-child(1) {
+    border-left: 1px solid #DDDDDD;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content table td {
+    height: 50px;
+    padding-left: 22px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #333333;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content table td .delete:hover path{
+    stroke: red;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content table td .edit:hover path{
+    stroke: #384455;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content table td:nth-child(1) {
+    border-left: 1px solid #DDDDDD;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content table td:nth-child(5) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    gap: 10px;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content table td:nth-child(4) select {
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #333333;
+}
+
+.manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-table-content table td:nth-child(5) svg {
+    cursor: pointer;
+}
+
+@media (min-width:700px) and (max-width:1300px) {
+
+    .manage-access .manage-access-container .manage-access-right {
+        padding: 25px 30px 75px 30px;
+    }
+
+
+    .manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-header .manage-access-title span {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .manage-access .manage-access-container .manage-access-right .manage-access-content .manage-access-header .manage-access-title p {
+        font-weight: 300;
+        font-size: 13px;
+    }
+}

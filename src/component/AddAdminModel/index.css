@@ -1,0 +1,419 @@
+.test-admin-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    background: rgba(5, 5, 5, 0.36);
+    position: absolute;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 2px;
+}
+
+.test-admin-container .test-type-box {
+    height: auto;
+    width: 735px;
+    padding: 26px 30px 30px 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.test-admin-container .test-type-box .header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.test-admin-container .test-type-box .header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.test-admin-container .test-type-box .header .title span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #000000;
+
+}
+
+.test-admin-container .test-type-box .header .header-border {
+    height: 1px;
+    background-color: #DDDDDD;
+}
+
+.test-admin-container .test-type-box .search-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.test-admin-container .test-type-box .search-row .search-container-test-admin {
+    display: flex;
+    flex-direction: row;
+    background: #ECECEC;
+    border-radius: 2px;
+    width: 47%;
+    height: 38px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 10px;
+}
+
+.test-admin-container .test-type-box .search-row .search-container-test-admin input {
+    border: none;
+    width: 88%;
+    background: #ECECEC;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+.test-admin-container .test-type-box .search-row .select-container {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    height: 38px;
+    align-items: center;
+    display: flex;
+    width: 23%;
+    padding-left: 20px;
+}
+
+.test-admin-container .test-type-box .search-row .select-container select {
+    height: 36px;
+    border: none;
+    width: 90%;
+    outline: none;
+}
+
+
+.test-admin-container .test-type-box .admin-heading {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.test-admin-container .test-type-box .admin-heading span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #384455;
+}
+
+.test-admin-container .test-type-box .admin-heading .add-admin-button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #00C49A;
+    cursor: pointer;
+}
+
+
+
+.test-admin-container .test-type-box .admin-data-table .admin-table {
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-radius: 2px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+
+.test-admin-container .test-type-box .admin-data-table .admin-table .admin-table-header {
+    background: #F1F5F7;
+    height: 40px;
+    /* width: 100%; */
+    /* /* padding-left: 20px; */
+    padding-right: 30px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.test-admin-container .test-type-box .admin-data-table .admin-table th {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+
+    color: #333333;
+    /* border-right: 1px solid #DDDDDD; */
+    border-bottom: 1px solid #DDDDDD;
+}
+
+
+
+.test-admin-container .test-type-box .admin-data-table .admin-table th:nth-child(1) {
+    width: 30%;
+    height: 48px;
+    text-align: left;
+    padding-left: 17px;
+    border-right: 1px solid #DDDDDD;
+}
+
+.test-admin-container .test-type-box .admin-data-table .admin-table th:nth-child(2) {
+    width: 30%;
+    padding-right: 70px;
+    padding-left: 20px;
+    height: 48px;
+    border-right: 1px solid #DDDDDD;
+}
+
+.test-admin-container .test-type-box .admin-data-table .admin-table th:nth-child(3) {
+    width: 40%;
+    padding-right: 70px;
+    height: 48px;
+    text-align: left;
+    padding-left: 48px;
+    border-right: 1px solid #DDDDDD;
+}
+
+
+
+
+
+.test-admin-container .test-type-box .admin-data-table .admin-table td {
+    border-bottom: 1px solid #DDDDDD;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #333333;
+    padding: 15px;
+    /* text-align: center; */
+}
+
+.test-admin-container .test-type-box .admin-data-table .admin-table td:nth-child(1) {
+    height: 50px;
+    border-right: 1px solid #DDDDDD;
+}
+
+.test-admin-container .test-type-box .admin-data-table .admin-table td:nth-child(3) {
+    height: 50px;
+    border-right: 1px solid #DDDDDD;
+    padding-left: 48px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #696974;
+}
+
+.test-admin-container .test-type-box .admin-data-table .admin-table td:nth-child(2) {
+    border-right: 1px solid #DDDDDD;
+    height: 50px;
+    padding-left: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+    color: #696974;
+}
+
+.test-admin-container .test-type-box .button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.test-admin-container .test-type-box .button .cancel-btn {
+    width: 111px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #827C7C;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 30px;
+
+}
+
+.test-admin-container .test-type-box .button .cancel-btn svg {
+    margin-right: 10px;
+}
+
+
+
+.test-admin-container .test-type-box .button .cancel-btn button {
+    background: #827C7C;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+}
+
+.test-admin-container .test-type-box .button .next-btn {
+    width: 94px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #00C49A;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.test-admin-container .test-type-box .button .next-btn svg {
+    margin-right: 10px;
+}
+
+.test-admin-container .test-type-box .button .next-btn button {
+    background: #00C49A;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+
+/* access dropdown */
+
+.test-admin-container .test-type-box .access-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.test-admin-container .test-type-box .access-container .access {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 155px;
+}
+
+.test-admin-container .test-type-box .access-container .access span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #384455;
+}
+
+.test-admin-container .test-type-box .access-container .access .select-box {
+    height: 40px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+}
+
+.test-admin-container .test-type-box .access-container .access .select-box select {
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 15px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.test-admin-container .test-type-box .access-container .access .select-box .vector-svg {
+    position: absolute;
+    top: 16px;
+    right: 17px;
+}
+
+.test-admin-container .test-type-box .search-results-of-admins {
+    display: flex;
+    flex-direction: column;
+    
+    width: 320px;
+    z-index: 1;
+    background: #F1F5F7;
+    position: absolute;
+    top:45px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+    gap:5px;
+    height:80px;
+    
+}
+.test-admin-container .test-type-box .search-results-of-admins .cancel-icon{
+    display: flex;
+    font-size: 20px;
+    text-align: right;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.test-admin-container .test-type-box .search-results-of-admins span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px;
+    
+}
+
+.test-admin-container .test-type-box .search-results-of-admins span:hover {
+    cursor: pointer;
+    background: #D9D9D9;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}

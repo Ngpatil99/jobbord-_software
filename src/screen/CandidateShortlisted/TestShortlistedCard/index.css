@@ -1,0 +1,226 @@
+.test-shortlisted-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FFFFFF;
+    justify-content: right;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    height: 80px;
+}
+
+.test-shortlisted-card:hover {
+    border: 1px solid #00C49A;
+}
+
+
+.test-shortlisted-card:hover .first .header svg rect {
+    stroke: #00C49A;
+}
+
+.test-shortlisted-card:hover .first .header input[type="checkbox"] {
+    border: 1px solid #827C7C;
+}
+
+.test-shortlisted-card .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* gap: 12px; */
+    width: 70%;
+
+    padding-left: 22px;
+}
+
+.test-shortlisted-card .first .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px
+}
+.test-shortlisted-card  .right-side-border{
+    width: 1px ;
+    height: 80px;
+    background-color: #DDDDDD;
+}
+/* 
+.test-shortlisted-card .first .header input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    outline: none;
+} */
+
+.test-shortlisted-card .first .header span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #313131;
+    text-transform: capitalize;
+}
+
+.test-shortlisted-card .first .bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    /* padding-left: 42px; */
+}
+
+.test-shortlisted-card .first .bottom .tags {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+}
+
+.test-shortlisted-card .first .bottom .tags span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.test-shortlisted-card .first .bottom .date-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.test-shortlisted-card .first .bottom .date-time span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.test-shortlisted-card .first  .status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.test-shortlisted-card .first  .status span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #FF6812;
+
+}
+
+.test-shortlisted-card .first .status-reviewed span {
+    margin-left: 41px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+
+/* ********************************************************* */
+
+.test-shortlisted-card .second {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px 30px; */
+
+    width: 15%;
+}
+
+.test-shortlisted-card .second .score {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #00C49A;
+}
+
+.test-shortlisted-card .second p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+
+/* ***************************************************************** */
+
+.test-shortlisted-card .third {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px 30px; */
+
+    width: 15%;
+}
+
+.test-shortlisted-card .third .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: left;
+    /* justify-content: center; */
+}
+
+.test-shortlisted-card .third span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.test-shortlisted-card .third p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}

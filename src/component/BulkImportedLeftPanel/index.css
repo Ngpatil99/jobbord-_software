@@ -1,0 +1,82 @@
+.bulk-imported-left-panel {
+    width: 20vw;
+    height: (100vh - 70vh);
+    background: #384455;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px 25px;
+    padding-top: 50px;
+    gap: 38px;
+    overflow: auto;
+}
+
+.bulk-imported-left-panel .select-all-container {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.bulk-imported-left-panel .select-all-container span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+
+    color: #FFFFFF;
+}
+
+.bulk-imported-left-panel .select-all-container .next-and-prev-button-container{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.bulk-imported-left-panel .select-all-container .prev-button-container {
+    width: 29.76px;
+    height: 29.76px;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bulk-imported-left-panel .question-number-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+
+}
+
+.bulk-imported-left-panel .question-number-container .question-box {
+    width: 41px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #000000;
+    cursor: pointer;
+}

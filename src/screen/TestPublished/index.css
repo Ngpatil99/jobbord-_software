@@ -1,0 +1,356 @@
+.test-published-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.test-published-container .test-published {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: #F1F5F7;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.test-published-container .test-published .content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-top: 5px solid #00C49A;
+    padding: 24px 100px 50px 100px;
+    box-sizing: border-box;
+    gap: 90px;
+    border-radius: 2px 2px 0px 0px;
+    /* height: calc(100vh - 334px); */
+    height: 540px;
+}
+
+.test-published-container .test-published .content-container .left-content {
+    display: flex;
+    width: 46%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+.test-published-container .test-published .content-container .left-content img {
+    width: 260px;
+    height: 250px;
+}
+
+.test-published-container .test-published .content-container .left-content h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.test-published-container .test-published .content-container .left-content h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.test-published-container .test-published .content-container .left-content .link-container {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.test-published-container .test-published .content-container .left-content .link-container input {
+    width: 88%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 16px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #636968;
+}
+
+.test-published-container .test-published .content-container .left-content .link-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: #00C49A;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.test-published-container .test-published .content-container .right-content {
+    /* padding: 30px; */
+    width: 47%;
+    box-sizing: border-box;
+    /* overflow: auto; */
+    padding-top: 39px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container {
+    width: 100%;
+    height: auto;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .header {
+    border-bottom: 1px solid #DDDDDD;
+    height: 48px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .header h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #384455;
+    padding-left: 30px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .details {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .details .name {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .details .name span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #384455;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .details .name .input-box {
+    border: 1px solid #DDDDDD;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .details .name .input-box svg {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .details .name .input-box input {
+    border: none;
+    width: 90%;
+    outline: none;
+    padding-left: 30px;
+    padding-top: 15px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity .email {
+    width: 75%;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity .email span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #384455;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity .email .input-box {
+    border: 1px solid #DDDDDD;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity .email .input-box svg {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity .email .input-box input {
+    border: none;
+    width: 98%;
+    outline: none;
+    padding-left: 30px;
+    padding-top: 15px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #333333;
+
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity .validity {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 35%;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity .validity .select-box {
+    height: 50px;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    position: relative;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity .validity .select-box select {
+    outline: none;
+    width: 80%;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 15px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity .validity .select-box .vector-svg {
+    position: absolute;
+    top: 21px;
+    right: 17px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .email-validity .validity span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #384455;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .button-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 30px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .button-container .send-invite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 44px;
+    background: #FF6812;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .button-container span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #384455;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .button-container .send-invite svg {
+    margin-right: 12px;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .button-container .bulk-invite-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #00C49A;
+    border: none;
+    border: 1px solid #00C49A;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.test-published-container .test-published .content-container .right-content .right-content-container .button-container .bulk-invite-btn svg {
+    margin-right: 12px;
+}

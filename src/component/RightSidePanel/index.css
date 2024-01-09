@@ -1,0 +1,134 @@
+ .right {
+   width: 50%;
+   height: 100vh;
+   background-color: #384455;
+   position: relative;
+
+ }
+
+ .right img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+ .right .no-of-company {
+   position: absolute;
+   top: 7%;
+   left: 11%;
+   height: 76px;
+   display: flex;
+   align-items: center;
+   padding: 0px 14px;
+   background: #FFFFFF;
+   box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.1);
+   border-radius: 10px;
+   gap: 10px;
+ }
+
+
+ .right .no-of-company span p {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   /* or 172% */
+
+
+   color: #1B1D21;
+ }
+
+ .right .no-of-company span label {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   /* identical to box height, or 194% */
+
+
+   color: #AAAAAA;
+
+ }
+
+ .right .name-here-container {
+   padding: 0px 20px;
+   position: absolute;
+   right: 20%;
+   bottom: 28%;
+   height: 72px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background: #FFFFFF;
+   box-shadow: 10px 32px 72px rgba(0, 0, 0, 0.08);
+   border-radius: 2px;
+   gap: 5px;
+ }
+
+ .right .name-here-container label {
+   font-family: 'Nunito';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   letter-spacing: 0.5px;
+
+   color: #000000;
+ }
+
+ .right .name-here-container p {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   /* identical to box height */
+
+   letter-spacing: 0.5px;
+
+   color: #AAAAAA;
+
+ }
+
+ .right .testimonal {
+   position: absolute;
+   bottom: 5%;
+   left: 10%;
+   width: 80%;
+   height: 88px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+ }
+
+ .right .testimonal p {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 30px;
+   /* or 214% */
+
+   text-align: center;
+   letter-spacing: 0.5px;
+
+   color: #FFFFFF;
+   height: 60px;
+ }
+
+ .right .testimonal .identicator {
+   width: 46px;
+   height: 8px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+ .right .testimonal .identicator span {
+   width: 8px;
+   height: 8px;
+   background: #FFFFFF;
+   opacity: 0.3;
+   border-radius: 50%;
+   cursor: pointer;
+ }

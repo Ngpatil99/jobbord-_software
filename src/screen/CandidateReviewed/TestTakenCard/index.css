@@ -1,0 +1,253 @@
+.test-taken-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    height: 113px;
+}
+
+.test-taken-card:hover {
+    border: 1px solid #00C49A;
+}
+
+
+.test-taken-card:hover .first .header svg rect {
+    stroke: #00C49A;
+}
+
+.test-taken-card:hover .first .header input[type="checkbox"] {
+    border: 1px solid #827C7C;
+}
+
+.test-taken-card .first {
+    display: flex;
+    flex-direction: column;
+    /* gap: 12px; */
+    width: 53%;
+    justify-content: left;
+
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-bottom: 24px;
+    border-right: 1px solid #DDDDDD;
+}
+
+.test-taken-card .first .header {
+    display: flex;
+    flex-direction: row;
+    gap:5px
+}
+
+/* 
+.test-taken-card .first .header input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    outline: none;
+} */
+
+.test-taken-card .first .header span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #313131;
+}
+
+.test-taken-card .first .bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding-left: 42px;
+}
+
+
+.test-taken-card .first .header .status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.test-taken-card .first .header .status span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #FF6812;
+
+}
+
+.test-taken-card .first .bottom .tags {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+}
+
+.test-taken-card .first .bottom .tags span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.test-taken-card .first .bottom .date-time {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.test-taken-card .first .bottom .date-time span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #827C7C;
+}
+
+.test-taken-card .first .status-reviewed span {
+    margin-left: 41px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+
+/* ********************************************************* */
+
+.test-taken-card .second {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px 30px; */
+    width: 17%;
+
+    border-right: 1px solid #DDDDDD;
+}
+
+.test-taken-card .second .score {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #00C49A;
+}
+
+.test-taken-card .second p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+
+/* ***************************************************************** */
+
+.test-taken-card .third {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px 30px; */
+    width: 17%;
+
+    border-right: 1px solid #DDDDDD;
+}
+
+.test-taken-card .third span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.test-taken-card .third p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+/* ******************************************************************************* */
+
+.test-taken-card .fourth {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px 30px; */
+
+    /* border-right: 1px solid #DDDDDD; */
+}
+
+.test-taken-card .fourth button {
+    display: flex;
+    gap: 5px;
+    width: 113px;
+    flex-direction: row;
+    border: none;
+    height: 30px;
+    padding: 12px 20px;
+    background: #00C49A;
+    border-radius: 2px;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
